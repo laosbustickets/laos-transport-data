@@ -1,0 +1,738 @@
+{
+  "_meta": {
+    "source": "Lao Department of Immigration (immigration.gov.la) checkpoint register, rendered 4 September 2026, re-checked 5, 9, 16 and 23 September 2026",
+    "verified": "2026-09-23",
+    "note": "Coordinates are approximate to within roughly 1 km and are intended for map placement and schema.org Place/geo, not navigation.",
+    "visaStatusNote": "visaOnArrival and eVisa reflect the OFFICIAL Lao register as last checked. Where field reports contradict the register, the 'practice' field says so. Never publish the official value alone where 'practice' is present.",
+    "confidenceNote": "confidence is a machine-readable HIGH/MEDIUM/LOW rating of how much to trust this checkpoint's visaOnArrival/eVisa values, alongside the existing prose in voaPractice/eVisaPractice/unconfirmed, not a replacement for it. HIGH: official register value with no disclosed conflict and no unconfirmed status. MEDIUM: no active dispute, but single-source (register only) or not re-checked this pass, so not independently corroborated. LOW: an active, disclosed conflict between the register and field reports, a status that changed between checks with no confirmed cause, or an explicitly unconfirmed detail (see voaPractice/eVisaPractice/unconfirmed on that entry). This field is internal, for querying and for catching a dropped uncertainty note in a future edit; it is not shown to readers on the page.",
+    "totalCheckpoints": 33,
+    "totalCheckpointsNote": "33 named checkpoints counted directly against the register's own full listing on 5 September 2026 (18 published here in detail plus 15 minor/reference-only checkpoints). The register's own overview page separately states '31' while its own per-country tally sums to 33 -- a discrepancy on the source's side, not ours; we publish the directly-counted figure. Re-counted directly off the rendered register again on 9 September 2026 and on 16 September 2026, the latter at limit=100 to rule out pagination truncation: still 33 both times.",
+    "recheck-2026-09-05": "Re-viewed the register's Visa Status icons directly (not just the summary text) for every Thailand and Vietnam checkpoint plus Boten and Khamsavath Station. Several checkpoints that were treated as visa-on-arrival-with-disputed-practice on 4 September now show a plain 'not available' icon for both Visa on Arrival and eVisa on the register itself: the 5th Friendship Bridge, the Lao-China Railway checkpoint (VOA only; eVisa still shows available), and five of the nine Laos-Vietnam checkpoints (Nam Phao, Nam Kan, Nam Soy, Na Phao, Pang Hok). This is flagged as a fresh, unresolved conflict rather than treated as settled fact -- see each checkpoint's voaPractice field. La Lai, Dak Ta Ock and Phou Keua were not re-checked this pass and still carry their 4 September values.",
+    "recheck-2026-09-09": "Full re-read of all 33 register entries, list and detail pages. The 5 September conflicts are now settled rather than open: the register has caught up with traveller reports at every disputed checkpoint, so confidence has been raised from LOW to HIGH/MEDIUM and the conflict prose has been replaced with the settled position. Specifically: eVisa at Nongnokkhene now shows not available on the register (previously listed, disputed by travellers; now both sources agree). eVisa dropped from available to not-available at Friendship Bridge 3 and Vang Tao, with no dispute either way. La Lai, Dak Ta Ock and Phou Keua (not re-checked on 5 September) now show neither visa on arrival nor eVisa, matching the other five Laos-Vietnam checkpoints already flagged on 5 September; Dansavan remains the sole Laos-Vietnam crossing issuing Lao visa on arrival. Pahang, previously unconfirmed, now shows neither visa on arrival nor eVisa. Hours corrections found this pass, all against the register's own detail pages: Boten (road) is 07:30-20:30, not 06:30-22:00 (that figure belongs to the adjacent Lao-China Railway checkpoint, and was applied to Boten in error); Dansavan is 07:00-22:00, not the generic 07:00-19:00 applied across all nine Laos-Vietnam checkpoints; Nam Soy is 07:30-19:30; Na Phao is 07:00-20:00. All other checkpoints re-verified unchanged: Nongnokkhene 06:00-18:00, all five Friendship Bridges and Vang Tao's Thailand-side hours, Nam Phao/Nam Kan/Pang Hok/La Lai/Dak Ta Ock/Phou Keua at 07:00-19:00, the Lao-China Railway checkpoint at 06:30-22:00, and all 15 reference checkpoints.",
+    "recheck-2026-09-16": "Full re-read of the register: all 33 entries, the list page at limit=60 and again at limit=100 to rule out truncation, plus every published checkpoint's own detail page. No change anywhere. Visa on arrival and eVisa status matched this file exactly at all 33 checkpoints, and every published opening hour re-confirmed unchanged: Nongnokkhene 06:00-18:00, all five Friendship Bridges 06:00-22:00, Vang Tao 06:00-20:00, Boten road 07:30-20:30, the Lao-China Railway checkpoint 06:30-22:00, Dansavan 07:00-22:00, Nam Soy 07:30-19:30, Na Phao 07:00-20:00, and Nam Phao, Nam Kan, Pang Hok, La Lai, Dak Ta Ock and Phou Keua at 07:00-19:00. Two changes made off the back of it. The fifth Friendship Bridge moves from LOW to MEDIUM: its no-visa-on-arrival and no-eVisa status has now held across three independent checks, 5, 9 and 16 September, with nothing contradicting it, so the conflict prose is replaced with the settled position. It stops at MEDIUM rather than HIGH because the bridge is new and no independent traveller report of visa practice there has surfaced. And the 15 reference checkpoints gained the province, district and opening hours the register publishes on their own detail pages, read individually this pass. Nongnokkhene also gained the Cambodian government's own spelling, Tropaeng Kreal, as an alternate name.",
+    "recheck-2026-09-23": "Full re-read of the register: all 33 entries on the list page (limit=100), visa-on-arrival and eVisa status read from the list-page status icon classes (text-green-500 / text-red-500), not from text, plus every checkpoint's own detail page for opening hours. No change anywhere: all 33 visa statuses and all published hours matched this file. Separately corrected the khamsavath-station entry, which had described the wrong station (see its note): KHAMSAVATH STATION on the register is the railway border crossing with Nong Khai station in Thailand, the terminus of the Thai line, not the Laos-China Railway's Vientiane station."
+  },
+  "thailand": [
+    {
+      "id": "friendship-bridge-1",
+      "officialName": "FRIENDSHIP BRIDGE 1",
+      "commonName": "1st Thai–Lao Friendship Bridge",
+      "alternateName": [
+        "Mittaphab Bridge",
+        "Nong Khai Bridge"
+      ],
+      "laoSide": "Vientiane Capital",
+      "otherSide": "Nong Khai, Thailand",
+      "province": "Vientiane Capital",
+      "hours": "06:00–22:00",
+      "visaOnArrival": true,
+      "eVisa": true,
+      "confidence": "HIGH",
+      "verified": "2026-09-23",
+      "registerUrl": "https://immigration.gov.la/en/checkpoints/detail/friendship-bridge-1",
+      "eVisaPractice": "Reliably accepted here.",
+      "crossingMethod": "Mandatory paid shuttle bus between the two immigration buildings. Walking and cycling are not permitted.",
+      "alsoServedBy": "Cross-border trains between Nong Khai and Vientiane's Khamsavath station (Thanaleng is no longer the terminus), including a direct overnight sleeper to and from Bangkok, trains 133/134.",
+      "geo": [
+        17.8747,
+        102.7137
+      ],
+      "note": "The busiest Laos–Thailand crossing and the standard route between Vientiane and Bangkok. Immigration counters often stop issuing new visas well before the bridge itself closes."
+    },
+    {
+      "id": "friendship-bridge-2",
+      "officialName": "FRIENDSHIP BRIDGE 2",
+      "commonName": "2nd Thai–Lao Friendship Bridge",
+      "alternateName": [
+        "Savannakhet–Mukdahan Bridge"
+      ],
+      "laoSide": "Savannakhet",
+      "otherSide": "Mukdahan, Thailand",
+      "province": "Savannakhet",
+      "hours": "06:00–22:00",
+      "visaOnArrival": true,
+      "eVisa": true,
+      "confidence": "HIGH",
+      "verified": "2026-09-23",
+      "registerUrl": "https://immigration.gov.la/en/checkpoints/detail/friendship-bridge-2",
+      "eVisaPractice": "Reliably accepted here.",
+      "crossingMethod": "Mandatory paid shuttle bus. Walking and cycling are not permitted.",
+      "geo": [
+        16.5497,
+        104.7419
+      ],
+      "note": "The main crossing for central Laos and the usual first leg towards Hue and Da Nang."
+    },
+    {
+      "id": "friendship-bridge-3",
+      "officialName": "FRIENDSHIP BRIDGE 3",
+      "commonName": "3rd Thai–Lao Friendship Bridge",
+      "alternateName": [
+        "Thakhek–Nakhon Phanom Bridge"
+      ],
+      "laoSide": "Thakhek, Khammouane",
+      "otherSide": "Nakhon Phanom, Thailand",
+      "province": "Khammouane",
+      "hours": "06:00–22:00",
+      "visaOnArrival": true,
+      "eVisa": false,
+      "confidence": "HIGH",
+      "verified": "2026-09-23",
+      "registerUrl": "https://immigration.gov.la/en/checkpoints/detail/friendship-bridge-3",
+      "eVisaPractice": "The register dropped eVisa from available to not available here as of 9 September 2026, with no dispute either way. Visa on arrival is the reliable route at this bridge.",
+      "crossingMethod": "Mandatory paid shuttle bus. Walking and cycling are not permitted.",
+      "geo": [
+        17.42,
+        104.77
+      ],
+      "note": "The quietest of the bridges and the natural start of the Thakhek Loop."
+    },
+    {
+      "id": "friendship-bridge-4",
+      "officialName": "FRIENDSHIP BRIDGE 4",
+      "commonName": "4th Thai–Lao Friendship Bridge",
+      "alternateName": [
+        "Huay Xai–Chiang Khong Bridge"
+      ],
+      "laoSide": "Huay Xai, Bokeo",
+      "otherSide": "Chiang Khong, Thailand",
+      "province": "Bokeo",
+      "hours": "06:00–22:00",
+      "visaOnArrival": true,
+      "eVisa": true,
+      "confidence": "HIGH",
+      "verified": "2026-09-23",
+      "registerUrl": "https://immigration.gov.la/en/checkpoints/detail/friendship-bridge-4",
+      "eVisaPractice": "Reliably accepted here.",
+      "crossingMethod": "Mandatory paid shuttle bus. Walking and cycling are not permitted.",
+      "geo": [
+        20.27,
+        100.41
+      ],
+      "note": "The gateway to northern Thailand, and the starting point for the two-day Mekong slow boat down to Luang Prabang."
+    },
+    {
+      "id": "friendship-bridge-5",
+      "officialName": "The Fifth Lao-Thai Friendship Bridge",
+      "commonName": "5th Thai–Lao Friendship Bridge",
+      "alternateName": [
+        "Paksan–Bueng Kan Bridge",
+        "Pakxan–Bueng Kan Bridge"
+      ],
+      "laoSide": "Ban Kluai Udom, Pakxan district, Bolikhamxay",
+      "otherSide": "Ban Don Yom, Khai Si subdistrict, Mueang Bueng Kan, Thailand",
+      "province": "Bolikhamxay",
+      "hours": "06:00–22:00",
+      "visaOnArrival": false,
+      "eVisa": false,
+      "confidence": "MEDIUM",
+      "verified": "2026-09-23",
+      "registerUrl": "https://immigration.gov.la/en/checkpoints/detail/the-fifth-lao-thai-friendship-bridge",
+      "voaPractice": "Settled as of 16 September 2026. Earlier reporting, including our own on 4 September 2026, listed visa on arrival and eVisa as available here. The official register has now shown both as not available on three separate checks, 5, 9 and 16 September 2026, with nothing contradicting it. Treat this crossing as issuing no visa of any kind: arrange one in advance, or cross at a bridge with a confirmed visa service. Confidence is MEDIUM rather than HIGH because the bridge is new and no independent traveller report of visa practice here has surfaced yet.",
+      "email": "pakxan.doi@gmail.com",
+      "opened": "2025-12-27",
+      "isNew": true,
+      "crossingMethod": "Built 17.4 m wide with two traffic lanes, a central median and pedestrian walkways on both sides. Whether pedestrians may actually cross on foot is not confirmed, see open questions.",
+      "unconfirmed": "Pedestrian access. The walkways exist; permission to walk across is not confirmed in any source we could find. Do not assume the shuttle-only rule from bridges 1–4 applies here, and do not assume it does not.",
+      "fee": "No crossing fee during the initial phase, toll arrangements are still being finalised in both countries.",
+      "length": "1,350 m",
+      "geo": [
+        18.36,
+        103.65
+      ],
+      "busService": {
+        "launched": "2026-01-08",
+        "operators": [
+          "Transport Co. Ltd (BorKorSor), Thailand",
+          "SPS Company, Lao PDR"
+        ],
+        "fare": "100 baht flat",
+        "departures": [
+          "08:00",
+          "10:30",
+          "13:00",
+          "15:30"
+        ],
+        "bothDirections": true,
+        "duration": "about 3 hours including border formalities",
+        "vehicle": "Air-conditioned second-class coach, 42 seats",
+        "phone": "042-490-690 (Bueng Kan Provincial Bus Terminal)"
+      },
+      "note": "Opened to the public on 27 December 2025 and still absent from almost every English-language travel guide. Links Lao Route 13 directly to Thai Highway 244."
+    },
+    {
+      "id": "vangtao",
+      "officialName": "VANGTAO INTERNATIONAL BORDER CHECKPOINT",
+      "commonName": "Vang Tao – Chong Mek",
+      "alternateName": [
+        "Chong Mek"
+      ],
+      "laoSide": "Champasak",
+      "otherSide": "Chong Mek, Ubon Ratchathani, Thailand",
+      "province": "Champasak",
+      "hours": "06:00–20:00",
+      "visaOnArrival": true,
+      "eVisa": false,
+      "confidence": "HIGH",
+      "verified": "2026-09-23",
+      "registerUrl": "https://immigration.gov.la/en/checkpoints/detail/vangtao-international-border-checkpoint",
+      "eVisaPractice": "The register dropped eVisa from available to not available here as of 9 September 2026, with no dispute either way. Visa on arrival is the reliable route at this crossing.",
+      "crossingMethod": "A true land border, no river, no bridge, no shuttle. You walk between the two immigration posts.",
+      "geo": [
+        15.07,
+        105.49
+      ],
+      "note": "The only major Laos–Thailand crossing that is not a Mekong bridge, and the standard route between Pakse and Ubon Ratchathani."
+    }
+  ],
+  "vietnam": [
+    {
+      "id": "dansavan",
+      "officialName": "DANSAVAN INTERNATIONAL BORDER GATE",
+      "commonName": "Dansavanh – Lao Bảo",
+      "alternateName": [
+        "Lao Bao",
+        "Lao Bảo",
+        "Dansavanh"
+      ],
+      "laoSide": "Savannakhet",
+      "otherSide": "Lao Bảo, Quảng Trị, Vietnam",
+      "province": "Savannakhet",
+      "hours": "07:00–22:00",
+      "visaOnArrival": true,
+      "eVisa": false,
+      "confidence": "HIGH",
+      "verified": "2026-09-23",
+      "registerUrl": "https://immigration.gov.la/en/checkpoints/detail/dansavan-international-border-gate",
+      "eVisaPractice": "The register shows eVisa as not available at this checkpoint as of 5 September 2026 (it was not checked on 4 September). Visa on arrival, not the eVisa, is the route in here.",
+      "voaPractice": "The one Laos–Vietnam crossing every source agrees issues Lao visa on arrival. With every other Laos–Vietnam checkpoint confirmed on 9 September 2026 as issuing neither visa on arrival nor eVisa, this is now the only one that does. If you are entering Laos from Vietnam without a visa, this is the safe choice.",
+      "vietnamEVisa": true,
+      "geo": [
+        16.62,
+        106.6
+      ],
+      "note": "The busiest Laos–Vietnam crossing, on the route from Savannakhet and Pakse to Hue and Da Nang."
+    },
+    {
+      "id": "namphao",
+      "officialName": "NAMPHAO INTERNATIONAL CHECKPOINT",
+      "commonName": "Nam Phao – Cầu Treo",
+      "alternateName": [
+        "Cau Treo",
+        "Cầu Treo",
+        "Keo Nua Pass"
+      ],
+      "laoSide": "Bolikhamxay",
+      "otherSide": "Cầu Treo, Hà Tĩnh, Vietnam",
+      "province": "Bolikhamxay",
+      "hours": "07:00–19:00",
+      "visaOnArrival": false,
+      "voaPractice": "Settled as of 9 September 2026. The register briefly listed visa on arrival here on 4 September, disputed by long-standing traveller reports saying people are turned away; checked again on 5 and 9 September, the register itself now consistently shows visa on arrival and eVisa as not available, matching those traveller reports. Do not rely on getting a visa at this crossing: arrange one before you travel.",
+      "eVisa": false,
+      "confidence": "HIGH",
+      "verified": "2026-09-23",
+      "registerUrl": "https://immigration.gov.la/en/checkpoints/detail/namphao-international-checkpoint",
+      "eVisaPractice": "Lao eVisas are widely reported as not accepted overland from Vietnam, and the official register agrees: eVisa has shown as not available here since 5 September 2026.",
+      "vietnamEVisa": true,
+      "geo": [
+        18.37,
+        105.13
+      ],
+      "note": "The usual crossing between Vientiane and Vinh or Hanoi, over the Keo Nua Pass."
+    },
+    {
+      "id": "namkan",
+      "officialName": "NAMKAN INTERNATIONAL CHECKPOINT",
+      "commonName": "Nam Kan – Nậm Cắn",
+      "alternateName": [
+        "Nam Can",
+        "Nậm Cắn"
+      ],
+      "laoSide": "Xiengkhouang",
+      "otherSide": "Nậm Cắn, Nghệ An, Vietnam",
+      "province": "Xiengkhouang",
+      "hours": "07:00–19:00",
+      "visaOnArrival": false,
+      "voaPractice": "Settled as of 9 September 2026, see Nam Phao. The register briefly showed visa on arrival on 4 September; checked again on 5 and 9 September it consistently shows neither visa on arrival nor eVisa. Arrange a visa in advance for this crossing.",
+      "eVisa": false,
+      "confidence": "HIGH",
+      "verified": "2026-09-23",
+      "registerUrl": "https://immigration.gov.la/en/checkpoints/detail/namkan-international-checkpoint",
+      "vietnamEVisa": true,
+      "geo": [
+        19.42,
+        104.13
+      ],
+      "note": "Serves Phonsavan and the Plain of Jars towards Vinh."
+    },
+    {
+      "id": "namsoy",
+      "officialName": "NAMSOY INTERNATIONAL CHECKPOINT",
+      "commonName": "Nam Soy – Na Mèo",
+      "alternateName": [
+        "Na Meo",
+        "Na Mèo",
+        "Namsoi"
+      ],
+      "laoSide": "Houaphanh",
+      "otherSide": "Na Mèo, Thanh Hóa, Vietnam",
+      "province": "Houaphanh",
+      "hours": "07:30–19:30",
+      "visaOnArrival": false,
+      "voaPractice": "Settled as of 9 September 2026, see Nam Phao. The register briefly showed visa on arrival on 4 September; checked again on 5 and 9 September it consistently shows neither visa on arrival nor eVisa. Arrange a visa in advance for this crossing.",
+      "eVisa": false,
+      "confidence": "HIGH",
+      "verified": "2026-09-23",
+      "registerUrl": "https://immigration.gov.la/en/checkpoints/detail/namsoy",
+      "vietnamEVisa": true,
+      "geo": [
+        20.15,
+        104.6
+      ],
+      "note": "The crossing for Sam Nuea and Vieng Xai towards Thanh Hóa and Hanoi."
+    },
+    {
+      "id": "naphao",
+      "officialName": "NAPHAO INTERNATIONAL BORDER CHECKPOINT",
+      "commonName": "Na Phao – Cha Lo",
+      "alternateName": [
+        "Cha Lo"
+      ],
+      "laoSide": "Khammouane",
+      "otherSide": "Cha Lo, Quảng Bình, Vietnam",
+      "province": "Khammouane",
+      "hours": "07:00–20:00",
+      "visaOnArrival": false,
+      "voaPractice": "Settled as of 9 September 2026. Published on 4 September as visa-on-arrival with no dispute noted; checked again on 5 and 9 September the register consistently shows neither visa on arrival nor eVisa available here, matching the pattern at every other Laos–Vietnam checkpoint except Dansavan. Arrange a visa in advance for this crossing.",
+      "eVisa": false,
+      "confidence": "HIGH",
+      "verified": "2026-09-23",
+      "registerUrl": "https://immigration.gov.la/en/checkpoints/detail/naphao-international-border-checkpoint",
+      "vietnamEVisa": true,
+      "geo": [
+        17.68,
+        105.75
+      ],
+      "missingFromOldSite": true,
+      "note": "A quiet crossing towards Phong Nha. Little scheduled transport, not bookable online."
+    },
+    {
+      "id": "la-lai",
+      "officialName": "LA LAI INTERNATIONAL CHECKPOINT",
+      "commonName": "La Lai – La Lay",
+      "alternateName": [
+        "La Lay"
+      ],
+      "laoSide": "Salavan",
+      "otherSide": "La Lay, Quảng Trị, Vietnam",
+      "province": "Salavan",
+      "hours": "07:00–19:00",
+      "visaOnArrival": false,
+      "voaPractice": "Not re-checked on 5 September 2026; checked directly on 9 September, the register shows neither visa on arrival nor eVisa, matching the pattern at every other Laos–Vietnam checkpoint except Dansavan. Arrange a visa in advance for this crossing.",
+      "eVisa": false,
+      "confidence": "HIGH",
+      "verified": "2026-09-23",
+      "registerUrl": "https://immigration.gov.la/en/checkpoints/detail/la-lai-international-checkpoint",
+      "vietnamEVisa": true,
+      "geo": [
+        16.2,
+        106.7
+      ],
+      "missingFromOldSite": true,
+      "note": "A southern alternative to Lao Bảo, mostly freight."
+    },
+    {
+      "id": "dak-ta-ock",
+      "officialName": "DAK TA OCK INTERNATIONAL BORDER CHECKPOINT",
+      "commonName": "Dak Ta Ock – Nam Giang",
+      "alternateName": [
+        "Nam Giang",
+        "Dak Taok"
+      ],
+      "laoSide": "Sekong",
+      "otherSide": "Nam Giang, Đà Nẵng, Vietnam",
+      "province": "Sekong",
+      "hours": "07:00–19:00",
+      "visaOnArrival": false,
+      "voaPractice": "Not re-checked on 5 September 2026; checked directly on 9 September, the register shows neither visa on arrival nor eVisa, matching the pattern at every other Laos–Vietnam checkpoint except Dansavan. Arrange a visa in advance for this crossing.",
+      "eVisa": false,
+      "confidence": "HIGH",
+      "verified": "2026-09-23",
+      "registerUrl": "https://immigration.gov.la/en/checkpoints/detail/dak-ta-ock-international-border-checkpoint",
+      "vietnamEVisa": true,
+      "geo": [
+        15.63,
+        107.3
+      ],
+      "missingFromOldSite": true,
+      "note": "The most direct line from Sekong towards Da Nang, but very little passenger transport."
+    },
+    {
+      "id": "phoukeua",
+      "officialName": "PHOUKEUA INTERNATIONAL BORDER CHECK POINT",
+      "commonName": "Phou Keua – Bờ Y",
+      "alternateName": [
+        "Bo Y",
+        "Bờ Y",
+        "Phou Keua"
+      ],
+      "laoSide": "Attapeu",
+      "otherSide": "Bờ Y, Kon Tum, Vietnam",
+      "province": "Attapeu",
+      "hours": "07:00–19:00",
+      "visaOnArrival": false,
+      "voaPractice": "Settled as of 9 September 2026, see Nam Phao. Not re-checked on 5 September; checked directly on 9 September, the register shows neither visa on arrival nor eVisa. Arrange a visa in advance for this crossing.",
+      "eVisa": false,
+      "confidence": "HIGH",
+      "verified": "2026-09-23",
+      "registerUrl": "https://immigration.gov.la/en/checkpoints/detail/phoukeua-international-border-check-point",
+      "vietnamEVisa": true,
+      "geo": [
+        14.68,
+        107.55
+      ],
+      "note": "The far-southern crossing towards Kon Tum and Pleiku. No bookable online inventory."
+    },
+    {
+      "id": "panghok",
+      "officialName": "PANGHOK",
+      "commonName": "Pang Hok – Tây Trang",
+      "alternateName": [
+        "Tay Trang",
+        "Tây Trang"
+      ],
+      "laoSide": "Phongsaly",
+      "otherSide": "Tây Trang, Điện Biên, Vietnam",
+      "province": "Phongsaly",
+      "hours": "07:00–19:00",
+      "visaOnArrival": false,
+      "voaPractice": "Settled as of 9 September 2026, see Nam Phao. The register briefly showed visa on arrival on 4 September; checked again on 5 and 9 September it consistently shows neither visa on arrival nor eVisa. Arrange a visa in advance for this crossing.",
+      "eVisa": false,
+      "confidence": "HIGH",
+      "verified": "2026-09-23",
+      "registerUrl": "https://immigration.gov.la/en/checkpoints/detail/panghok",
+      "vietnamEVisa": true,
+      "geo": [
+        21.33,
+        102.95
+      ],
+      "note": "The far-northern crossing towards Điện Biên Phủ. Remote, with limited transport."
+    }
+  ],
+  "cambodia": [
+    {
+      "id": "nongnokkheane",
+      "officialName": "NONGNOKKHEANE INTERNATIONAL BORDER CHECKPOINT",
+      "commonName": "Nongnokkhene – Trapeang Kriel",
+      "alternateName": [
+        "Veun Kham",
+        "Dom Kralor",
+        "Nong Nok Khiene",
+        "Trapeang Kriel",
+        "Tropaeng Kreal"
+      ],
+      "laoSide": "Khong District, Champasak Province",
+      "otherSide": "Trapeang Kriel, Stung Treng District, Stung Treng Province, Cambodia",
+      "province": "Champasak",
+      "hours": "06:00–18:00",
+      "visaOnArrival": true,
+      "eVisa": false,
+      "confidence": "HIGH",
+      "verified": "2026-09-23",
+      "registerUrl": "https://immigration.gov.la/en/checkpoints/detail/nongnokkheane-international-border-checkpoint",
+      "eVisaPractice": "Settled as of 9 September 2026. The official Lao register previously listed the eVisa as valid here, while Travelfish and multiple field reports said it was not accepted and that visa on arrival was the only thing that worked. Checked again on 9 September, the register itself now shows eVisa as not available at this checkpoint, matching what travellers had been reporting all along. Bring USD cash for visa on arrival.",
+      "isOnlyCrossing": true,
+      "email": "nongnokkhiannnk@gmail.com",
+      "geo": [
+        14.08,
+        105.92
+      ],
+      "cambodiaVisa": {
+        "voaLandBorder": "US$30",
+        "eVisa": "US$30 (evisa.gov.kh lists Visa T at USD 30; several booking guides still quote a further US$6 processing charge at checkout, which we could not confirm on the official payment page, since it sits behind a captcha. Budget US$36 and expect US$30)",
+        "eVisaWarning": "Trapeang Kriel is one of only two Cambodian land checkpoints that accept the e-visa at all, the other being Bavet. Visa on arrival in cash is still the simpler choice if you have it."
+      },
+      "unofficialFees": [
+        "About US$2 for an exit stamp, and up to US$5 on the Lao side, neither of which is official.",
+        "A posted US$2 weekend and after-hours surcharge.",
+        "A '+US$5 stamp fee' on top of the US$30 Cambodian visa.",
+        "Travellers on Indian, Pakistani and Bangladeshi passports report being pulled aside on the Cambodian side and told they must show US$1,500 in cash before entry. There is no such rule."
+      ],
+      "note": "The only legal land crossing between Laos and Cambodia. Still called Veun Kham or Dom Kralor by bus companies, blogs and some maps. That is the old post, now local traffic only."
+    }
+  ],
+  "china": [
+    {
+      "id": "boten",
+      "officialName": "BOTEN",
+      "commonName": "Boten – Mohan",
+      "alternateName": [
+        "Mohan",
+        "Bohan",
+        "Boten International Checkpoint"
+      ],
+      "laoSide": "Luang Namtha",
+      "otherSide": "Mohan, Yunnan, China",
+      "province": "Luang Namtha",
+      "hours": "07:30–20:30",
+      "visaOnArrival": true,
+      "eVisa": true,
+      "confidence": "HIGH",
+      "verified": "2026-09-23",
+      "registerUrl": "https://immigration.gov.la/en/checkpoints/detail/boten",
+      "eVisaPractice": "Reliably accepted here.",
+      "geo": [
+        21.18,
+        101.69
+      ],
+      "note": "The road crossing into Yunnan. About 4 km from Boten railway station, a shared taxi is 60,000 kip or 20 RMB. Not to be confused with the adjacent Lao-China Railway checkpoint, which keeps different, longer hours."
+    },
+    {
+      "id": "lao-china-railway",
+      "officialName": "LAO CHINA RAILWAY",
+      "commonName": "Boten railway checkpoint",
+      "alternateName": [
+        "Lao-China Railway checkpoint"
+      ],
+      "laoSide": "Boten, Luang Namtha",
+      "otherSide": "Mohan, Yunnan, China",
+      "province": "Luang Namtha",
+      "hours": "06:30–22:00",
+      "visaOnArrival": false,
+      "voaPractice": "Confirmed from two directions. The Lao register stopped showing visa on arrival at this railway checkpoint on 5 September 2026, while continuing to show it at the Boten road crossing 4 km away, and independent rail-travel sources say the same: the facility at Boten railway station does not issue visa on arrival, but does accept the eVisa. Travelling by train, have the visa or eVisa before you board.",
+      "eVisa": true,
+      "confidence": "HIGH",
+      "verified": "2026-09-23",
+      "registerUrl": "https://immigration.gov.la/en/checkpoints/detail/lao-china-railway",
+      "isRail": true,
+      "geo": [
+        21.18,
+        101.69
+      ],
+      "crossingMethod": "Two inspections, one at each side. The train holds roughly an hour at Mohan and again at Boten, and at both you take all your luggage off the train, clear the inspection hall on foot, and reboard the same train afterwards. You do not change trains, but you do not stay in your seat either.",
+      "note": "A separate entry on the Lao register from the Boten road crossing. Through trains hold about 60 minutes here while passengers clear immigration."
+    }
+  ],
+  "reference": [
+    {
+      "id": "wattay-airport",
+      "officialName": "WATTAY INTERNATIONAL AIRPORT",
+      "commonName": "Wattay International Airport",
+      "category": "International airport",
+      "hours": "24 hours",
+      "laoSide": "Sikhottabong District, Vientiane Capital",
+      "visaOnArrival": true,
+      "eVisa": true,
+      "confidence": "HIGH",
+      "verified": "2026-09-23",
+      "registerUrl": "https://immigration.gov.la/en/checkpoints/detail/wattay-international-airport",
+      "note": "Vientiane's international airport. Visa on arrival and eVisa are the reliable route here, more so than at any land border."
+    },
+    {
+      "id": "luangprabang-airport",
+      "officialName": "LUANGPRABANG INTERNATIONAL AIRPORT",
+      "commonName": "Luang Prabang International Airport",
+      "category": "International airport",
+      "hours": "24 hours",
+      "laoSide": "Luang Prabang",
+      "visaOnArrival": true,
+      "eVisa": true,
+      "confidence": "MEDIUM",
+      "verified": "2026-09-23",
+      "registerUrl": "https://immigration.gov.la/en/checkpoints/detail/luangprabang-international-airport",
+      "note": "Serves the old town directly, about 5 km out."
+    },
+    {
+      "id": "savannakhet-airport",
+      "officialName": "SAVANNAKHET INTERNATIONAL AIRPORT",
+      "commonName": "Savannakhet International Airport",
+      "category": "International airport",
+      "hours": "06:00–17:30",
+      "laoSide": "Savannakhet",
+      "visaOnArrival": false,
+      "eVisa": false,
+      "confidence": "MEDIUM",
+      "verified": "2026-09-23",
+      "registerUrl": "https://immigration.gov.la/en/checkpoints/detail/savannakhet-international-airport",
+      "note": "Limited scheduled international service. Not currently a route this site covers with bookable inventory, and the register itself shows neither visa on arrival nor eVisa here, checked 5 September 2026."
+    },
+    {
+      "id": "pakse-airport",
+      "officialName": "PAKSE INTERNATIONAL AIRPORT",
+      "commonName": "Pakse International Airport",
+      "category": "International airport",
+      "hours": "04:00–23:30",
+      "laoSide": "Champasak",
+      "visaOnArrival": true,
+      "eVisa": true,
+      "confidence": "MEDIUM",
+      "verified": "2026-09-23",
+      "registerUrl": "https://immigration.gov.la/en/checkpoints/detail/pakse-international-airport",
+      "note": "Serves the south, an alternative to the Vang Tao or Nongnokkhene land crossings for reaching Champasak by air."
+    },
+    {
+      "id": "golden-triangle",
+      "officialName": "GOLDEN TRIANGLE INTERNATIONAL BORDER IMMIGRATION CHECK POINT",
+      "commonName": "Golden Triangle",
+      "category": "International border checkpoint",
+      "laoSide": "Tonpheung District, Bokeo Province",
+      "hours": "06:00–20:00",
+      "visaOnArrival": true,
+      "eVisa": false,
+      "confidence": "MEDIUM",
+      "verified": "2026-09-23",
+      "registerUrl": "https://immigration.gov.la/en/checkpoints/detail/golden-triangle-international-border-immigration-check-point",
+      "note": "Not currently served by any bookable route on this site. Included for completeness of the official register."
+    },
+    {
+      "id": "meuangmom",
+      "officialName": "MEUANGMOM",
+      "commonName": "Meuangmom",
+      "category": "International border checkpoint",
+      "laoSide": "Tonpheung District, Bokeo Province",
+      "hours": "08:00–18:00",
+      "visaOnArrival": false,
+      "eVisa": false,
+      "confidence": "MEDIUM",
+      "verified": "2026-09-23",
+      "registerUrl": "https://immigration.gov.la/en/checkpoints/detail/meuangmom",
+      "note": "Not currently served by any bookable route on this site. Included for completeness of the official register."
+    },
+    {
+      "id": "lanetoui",
+      "officialName": "LANETOUI",
+      "commonName": "Lanetoui",
+      "category": "International border checkpoint",
+      "laoSide": "Yot Ou District, Phongsaly Province",
+      "hours": "07:00–20:00",
+      "visaOnArrival": false,
+      "eVisa": false,
+      "confidence": "MEDIUM",
+      "verified": "2026-09-23",
+      "registerUrl": "https://immigration.gov.la/en/checkpoints/detail/lanetoui",
+      "note": "Not currently served by any bookable route on this site. Included for completeness of the official register."
+    },
+    {
+      "id": "namheuang-friendship-bridge",
+      "officialName": "NAMHEUANG FRIENDSHIP BRIDGE INTERNATIONAL CHECKPOINT",
+      "commonName": "Namheuang Friendship Bridge",
+      "category": "International border checkpoint",
+      "laoSide": "Kanethao District, Xayabouly Province",
+      "hours": "07:00–18:00",
+      "visaOnArrival": true,
+      "eVisa": false,
+      "confidence": "MEDIUM",
+      "verified": "2026-09-23",
+      "registerUrl": "https://immigration.gov.la/en/checkpoints/detail/namheuang-friendship-bridge-international-checkpoint",
+      "note": "Not currently served by any bookable route on this site. Included for completeness of the official register."
+    },
+    {
+      "id": "namngeun",
+      "officialName": "NAMNGEUN INTERNATIONAL CHECKPOINT",
+      "commonName": "Namngeun",
+      "category": "International border checkpoint",
+      "laoSide": "Ngeun District, Xayabouly Province",
+      "hours": "08:00–20:00",
+      "visaOnArrival": false,
+      "eVisa": false,
+      "confidence": "MEDIUM",
+      "verified": "2026-09-23",
+      "registerUrl": "https://immigration.gov.la/en/checkpoints/detail/namngeun-international-checkpoint",
+      "note": "Not currently served by any bookable route on this site. Included for completeness of the official register."
+    },
+    {
+      "id": "phoudou",
+      "officialName": "PHOUDOU INTERNATIONAL BORDER CHECKPOINT",
+      "commonName": "Phoudou",
+      "category": "International border checkpoint",
+      "laoSide": "Paklay District, Xayabouly Province",
+      "hours": "06:00–20:00",
+      "visaOnArrival": false,
+      "eVisa": false,
+      "confidence": "MEDIUM",
+      "verified": "2026-09-23",
+      "registerUrl": "https://immigration.gov.la/en/checkpoints/detail/phoudou-international-border-checkpoint",
+      "note": "Not currently served by any bookable route on this site. Included for completeness of the official register."
+    },
+    {
+      "id": "pangmon",
+      "officialName": "PANGMON INTERNATIONAL BODER CHECKPOINT",
+      "commonName": "Pangmon",
+      "category": "International border checkpoint",
+      "laoSide": "Khob District, Xayabouly Province",
+      "hours": "06:00–18:00",
+      "visaOnArrival": false,
+      "eVisa": false,
+      "confidence": "MEDIUM",
+      "verified": "2026-09-23",
+      "registerUrl": "https://immigration.gov.la/en/checkpoints/detail/pangmon-international-boder-checkpoint",
+      "note": "Not currently served by any bookable route on this site. Included for completeness of the official register. Named exactly as spelled on the official register, including its own typo."
+    },
+    {
+      "id": "banvang",
+      "officialName": "BANVANG INTERNATIONAL BORDER CHECKPOINT",
+      "commonName": "Banvang",
+      "category": "International border checkpoint",
+      "laoSide": "Muen District, Vientiane Province",
+      "hours": "08:00–17:30",
+      "visaOnArrival": false,
+      "eVisa": false,
+      "confidence": "MEDIUM",
+      "verified": "2026-09-23",
+      "registerUrl": "https://immigration.gov.la/en/checkpoints/detail/banvang-international-border-checkpoint",
+      "note": "Not currently served by any bookable route on this site. Included for completeness of the official register."
+    },
+    {
+      "id": "paktaphan",
+      "officialName": "PAKTAPHAN INTERNATIONAL BORDER CHECKPOINT",
+      "commonName": "Paktaphan",
+      "category": "International border checkpoint",
+      "laoSide": "Lakhonpheng District, Salavan Province",
+      "hours": "08:00–17:00",
+      "visaOnArrival": false,
+      "eVisa": false,
+      "confidence": "MEDIUM",
+      "verified": "2026-09-23",
+      "registerUrl": "https://immigration.gov.la/en/checkpoints/detail/paktaphan-international-border-checkpoint",
+      "note": "Not currently served by any bookable route on this site. Included for completeness of the official register."
+    },
+    {
+      "id": "pahang",
+      "officialName": "PAHANG INTERNATIONAL BORDER CHECKPOINT",
+      "commonName": "Pahang",
+      "category": "International border checkpoint",
+      "laoSide": "Sopbao District, Huaphan Province",
+      "hours": "07:00–19:00",
+      "visaOnArrival": false,
+      "eVisa": false,
+      "note": "Not currently served by any bookable route on this site. Included for completeness of the official register. Checked directly against the register on 9 September 2026, after not being individually re-checked on 5 September.",
+      "confidence": "MEDIUM",
+      "verified": "2026-09-23",
+      "registerUrl": "https://immigration.gov.la/en/checkpoints/detail/pahang-international-border-checkpoint"
+    },
+    {
+      "id": "khamsavath-station",
+      "officialName": "KHAMSAVATH STATION",
+      "commonName": "Khamsavath Station (railway crossing to Nong Khai)",
+      "alternateName": [
+        "Vientiane (Khamsavath)",
+        "Vientiane-Tai station"
+      ],
+      "category": "International checkpoint (railway station)",
+      "hours": "08:30–18:30",
+      "laoSide": "Hadsayfong District, Vientiane Capital",
+      "otherSide": "Nong Khai railway station, Thailand",
+      "province": "Vientiane Capital",
+      "visaOnArrival": true,
+      "eVisa": true,
+      "confidence": "HIGH",
+      "verified": "2026-09-23",
+      "registerUrl": "https://immigration.gov.la/en/checkpoints/detail/khamsavath-station",
+      "geo": [
+        17.9575,
+        102.6747
+      ],
+      "note": "The Vientiane terminus of Thailand's railway line from Nong Khai, opened in 2023, about 7 km from the centre. Trains cross the Mekong on the 1st Friendship Bridge's rail track; Thai exit checks happen on the platform at Nong Khai and Lao entry formalities here. Served by the direct overnight sleeper to and from Bangkok Krung Thep Aphiwat (trains 133/134) and by shorter Nong Khai and Udon Thani trains. Visa on arrival and eVisa are both listed. Not to be confused with the Laos-China Railway's Vientiane station, a separate station about 14 to 15 km north-east of the centre that is not an immigration checkpoint."
+    }
+  ]
+}
