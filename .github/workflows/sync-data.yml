@@ -1,0 +1,61 @@
+name: Sync Laos Transport Data
+
+on:
+  schedule:
+    - cron: "17 2 * * *"
+
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download canonical datasets
+        run: |
+          curl -fL https://laosbustickets.com/data/routes.json -o routes.json
+          curl -fL https://laosbustickets.com/data/checkpoints.json -o checkpoints.json
+
+      - name: Update GitHub repository
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add routes.json checkpoints.json
+
+          if git diff --cached --quiet; then
+            echo "No dataset changes detected."
+          else
+            git commit -m "Update Laos transport datasets"
+            git push
+          fi
+
+      - name: Sync to Hugging Face
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: |
+          pip install -q huggingface_hub
+
+          python - <<'PY'
+          import os
+          from huggingface_hub import HfApi
+
+          api = HfApi(token=os.environ["HF_TOKEN"])
+
+          api.upload_folder(
+              folder_path=".",
+              repo_id="laosbustickets/laos-transport-data",
+              repo_type="dataset",
+              allow_patterns=[
+                  "routes.json",
+                  "checkpoints.json"
+              ],
+              commit_message="Sync datasets from LaosBusTickets.com"
+          )
+          PY
