@@ -10,7 +10,9 @@
     "recheck-2026-09-05": "Re-viewed the register's Visa Status icons directly (not just the summary text) for every Thailand and Vietnam checkpoint plus Boten and Khamsavath Station. Several checkpoints that were treated as visa-on-arrival-with-disputed-practice on 4 September now show a plain 'not available' icon for both Visa on Arrival and eVisa on the register itself: the 5th Friendship Bridge, the Lao-China Railway checkpoint (VOA only; eVisa still shows available), and five of the nine Laos-Vietnam checkpoints (Nam Phao, Nam Kan, Nam Soy, Na Phao, Pang Hok). This is flagged as a fresh, unresolved conflict rather than treated as settled fact -- see each checkpoint's voaPractice field. La Lai, Dak Ta Ock and Phou Keua were not re-checked this pass and still carry their 4 September values.",
     "recheck-2026-09-09": "Full re-read of all 33 register entries, list and detail pages. The 5 September conflicts are now settled rather than open: the register has caught up with traveller reports at every disputed checkpoint, so confidence has been raised from LOW to HIGH/MEDIUM and the conflict prose has been replaced with the settled position. Specifically: eVisa at Nongnokkhene now shows not available on the register (previously listed, disputed by travellers; now both sources agree). eVisa dropped from available to not-available at Friendship Bridge 3 and Vang Tao, with no dispute either way. La Lai, Dak Ta Ock and Phou Keua (not re-checked on 5 September) now show neither visa on arrival nor eVisa, matching the other five Laos-Vietnam checkpoints already flagged on 5 September; Dansavan remains the sole Laos-Vietnam crossing issuing Lao visa on arrival. Pahang, previously unconfirmed, now shows neither visa on arrival nor eVisa. Hours corrections found this pass, all against the register's own detail pages: Boten (road) is 07:30-20:30, not 06:30-22:00 (that figure belongs to the adjacent Lao-China Railway checkpoint, and was applied to Boten in error); Dansavan is 07:00-22:00, not the generic 07:00-19:00 applied across all nine Laos-Vietnam checkpoints; Nam Soy is 07:30-19:30; Na Phao is 07:00-20:00. All other checkpoints re-verified unchanged: Nongnokkhene 06:00-18:00, all five Friendship Bridges and Vang Tao's Thailand-side hours, Nam Phao/Nam Kan/Pang Hok/La Lai/Dak Ta Ock/Phou Keua at 07:00-19:00, the Lao-China Railway checkpoint at 06:30-22:00, and all 15 reference checkpoints.",
     "recheck-2026-09-16": "Full re-read of the register: all 33 entries, the list page at limit=60 and again at limit=100 to rule out truncation, plus every published checkpoint's own detail page. No change anywhere. Visa on arrival and eVisa status matched this file exactly at all 33 checkpoints, and every published opening hour re-confirmed unchanged: Nongnokkhene 06:00-18:00, all five Friendship Bridges 06:00-22:00, Vang Tao 06:00-20:00, Boten road 07:30-20:30, the Lao-China Railway checkpoint 06:30-22:00, Dansavan 07:00-22:00, Nam Soy 07:30-19:30, Na Phao 07:00-20:00, and Nam Phao, Nam Kan, Pang Hok, La Lai, Dak Ta Ock and Phou Keua at 07:00-19:00. Two changes made off the back of it. The fifth Friendship Bridge moves from LOW to MEDIUM: its no-visa-on-arrival and no-eVisa status has now held across three independent checks, 5, 9 and 16 September, with nothing contradicting it, so the conflict prose is replaced with the settled position. It stops at MEDIUM rather than HIGH because the bridge is new and no independent traveller report of visa practice there has surfaced. And the 15 reference checkpoints gained the province, district and opening hours the register publishes on their own detail pages, read individually this pass. Nongnokkhene also gained the Cambodian government's own spelling, Tropaeng Kreal, as an alternate name.",
-    "recheck-2026-09-23": "Full re-read of the register: all 33 entries on the list page (limit=100), visa-on-arrival and eVisa status read from the list-page status icon classes (text-green-500 / text-red-500), not from text, plus every checkpoint's own detail page for opening hours. No change anywhere: all 33 visa statuses and all published hours matched this file. Separately corrected the khamsavath-station entry, which had described the wrong station (see its note): KHAMSAVATH STATION on the register is the railway border crossing with Nong Khai station in Thailand, the terminus of the Thai line, not the Laos-China Railway's Vientiane station."
+    "recheck-2026-09-23": "Full re-read of the register: all 33 entries on the list page (limit=100), visa-on-arrival and eVisa status read from the list-page status icon classes (text-green-500 / text-red-500), not from text, plus every checkpoint's own detail page for opening hours. No change anywhere: all 33 visa statuses and all published hours matched this file. Separately corrected the khamsavath-station entry, which had described the wrong station (see its note): KHAMSAVATH STATION on the register is the railway border crossing with Nong Khai station in Thailand, the terminus of the Thai line, not the Laos-China Railway's Vientiane station.",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "licenseNote": "Free to reuse under CC BY 4.0; please credit laosbustickets.com and link https://laosbustickets.com/laos-border-checkpoints/."
   },
   "thailand": [
     {
@@ -37,7 +39,9 @@
         17.8747,
         102.7137
       ],
-      "note": "The busiest Laos–Thailand crossing and the standard route between Vientiane and Bangkok. Immigration counters often stop issuing new visas well before the bridge itself closes."
+      "note": "The busiest Laos–Thailand crossing and the standard route between Vientiane and Bangkok. Immigration counters often stop issuing new visas well before the bridge itself closes.",
+      "pageUrl": "https://laosbustickets.com/laos-border-checkpoints/#cp-friendship-bridge-1",
+      "guideUrl": "https://laosbustickets.com/laos-thailand-border-crossings/"
     },
     {
       "id": "friendship-bridge-2",
@@ -61,7 +65,9 @@
         16.5497,
         104.7419
       ],
-      "note": "The main crossing for central Laos and the usual first leg towards Hue and Da Nang."
+      "note": "The main crossing for central Laos and the usual first leg towards Hue and Da Nang.",
+      "pageUrl": "https://laosbustickets.com/laos-border-checkpoints/#cp-friendship-bridge-2",
+      "guideUrl": "https://laosbustickets.com/laos-thailand-border-crossings/"
     },
     {
       "id": "friendship-bridge-3",
@@ -85,7 +91,9 @@
         17.42,
         104.77
       ],
-      "note": "The quietest of the bridges and the natural start of the Thakhek Loop."
+      "note": "The quietest of the bridges and the natural start of the Thakhek Loop.",
+      "pageUrl": "https://laosbustickets.com/laos-border-checkpoints/#cp-friendship-bridge-3",
+      "guideUrl": "https://laosbustickets.com/laos-thailand-border-crossings/"
     },
     {
       "id": "friendship-bridge-4",
@@ -109,7 +117,9 @@
         20.27,
         100.41
       ],
-      "note": "The gateway to northern Thailand, and the starting point for the two-day Mekong slow boat down to Luang Prabang."
+      "note": "The gateway to northern Thailand, and the starting point for the two-day Mekong slow boat down to Luang Prabang.",
+      "pageUrl": "https://laosbustickets.com/laos-border-checkpoints/#cp-friendship-bridge-4",
+      "guideUrl": "https://laosbustickets.com/laos-thailand-border-crossings/"
     },
     {
       "id": "friendship-bridge-5",
@@ -158,7 +168,9 @@
         "vehicle": "Air-conditioned second-class coach, 42 seats",
         "phone": "042-490-690 (Bueng Kan Provincial Bus Terminal)"
       },
-      "note": "Opened to the public on 27 December 2025 and still absent from almost every English-language travel guide. Links Lao Route 13 directly to Thai Highway 244."
+      "note": "Opened to the public on 27 December 2025 and still absent from almost every English-language travel guide. Links Lao Route 13 directly to Thai Highway 244.",
+      "pageUrl": "https://laosbustickets.com/laos-border-checkpoints/#cp-friendship-bridge-5",
+      "guideUrl": "https://laosbustickets.com/laos-thailand-border-crossings/"
     },
     {
       "id": "vangtao",
@@ -182,7 +194,9 @@
         15.07,
         105.49
       ],
-      "note": "The only major Laos–Thailand crossing that is not a Mekong bridge, and the standard route between Pakse and Ubon Ratchathani."
+      "note": "The only major Laos–Thailand crossing that is not a Mekong bridge, and the standard route between Pakse and Ubon Ratchathani.",
+      "pageUrl": "https://laosbustickets.com/laos-border-checkpoints/#cp-vangtao",
+      "guideUrl": "https://laosbustickets.com/laos-thailand-border-crossings/"
     }
   ],
   "vietnam": [
@@ -211,7 +225,9 @@
         16.62,
         106.6
       ],
-      "note": "The busiest Laos–Vietnam crossing, on the route from Savannakhet and Pakse to Hue and Da Nang."
+      "note": "The busiest Laos–Vietnam crossing, on the route from Savannakhet and Pakse to Hue and Da Nang.",
+      "pageUrl": "https://laosbustickets.com/laos-border-checkpoints/#cp-dansavan",
+      "guideUrl": "https://laosbustickets.com/laos-vietnam-border-crossings/"
     },
     {
       "id": "namphao",
@@ -238,7 +254,9 @@
         18.37,
         105.13
       ],
-      "note": "The usual crossing between Vientiane and Vinh or Hanoi, over the Keo Nua Pass."
+      "note": "The usual crossing between Vientiane and Vinh or Hanoi, over the Keo Nua Pass.",
+      "pageUrl": "https://laosbustickets.com/laos-border-checkpoints/#cp-namphao",
+      "guideUrl": "https://laosbustickets.com/laos-vietnam-border-crossings/"
     },
     {
       "id": "namkan",
@@ -263,7 +281,9 @@
         19.42,
         104.13
       ],
-      "note": "Serves Phonsavan and the Plain of Jars towards Vinh."
+      "note": "Serves Phonsavan and the Plain of Jars towards Vinh.",
+      "pageUrl": "https://laosbustickets.com/laos-border-checkpoints/#cp-namkan",
+      "guideUrl": "https://laosbustickets.com/laos-vietnam-border-crossings/"
     },
     {
       "id": "namsoy",
@@ -289,7 +309,9 @@
         20.15,
         104.6
       ],
-      "note": "The crossing for Sam Nuea and Vieng Xai towards Thanh Hóa and Hanoi."
+      "note": "The crossing for Sam Nuea and Vieng Xai towards Thanh Hóa and Hanoi.",
+      "pageUrl": "https://laosbustickets.com/laos-border-checkpoints/#cp-namsoy",
+      "guideUrl": "https://laosbustickets.com/laos-vietnam-border-crossings/"
     },
     {
       "id": "naphao",
@@ -314,7 +336,9 @@
         105.75
       ],
       "missingFromOldSite": true,
-      "note": "A quiet crossing towards Phong Nha. Little scheduled transport, not bookable online."
+      "note": "A quiet crossing towards Phong Nha. Little scheduled transport, not bookable online.",
+      "pageUrl": "https://laosbustickets.com/laos-border-checkpoints/#cp-naphao",
+      "guideUrl": "https://laosbustickets.com/laos-vietnam-border-crossings/"
     },
     {
       "id": "la-lai",
@@ -339,7 +363,9 @@
         106.7
       ],
       "missingFromOldSite": true,
-      "note": "A southern alternative to Lao Bảo, mostly freight."
+      "note": "A southern alternative to Lao Bảo, mostly freight.",
+      "pageUrl": "https://laosbustickets.com/laos-border-checkpoints/#cp-la-lai",
+      "guideUrl": "https://laosbustickets.com/laos-vietnam-border-crossings/"
     },
     {
       "id": "dak-ta-ock",
@@ -365,7 +391,9 @@
         107.3
       ],
       "missingFromOldSite": true,
-      "note": "The most direct line from Sekong towards Da Nang, but very little passenger transport."
+      "note": "The most direct line from Sekong towards Da Nang, but very little passenger transport.",
+      "pageUrl": "https://laosbustickets.com/laos-border-checkpoints/#cp-dak-ta-ock",
+      "guideUrl": "https://laosbustickets.com/laos-vietnam-border-crossings/"
     },
     {
       "id": "phoukeua",
@@ -391,7 +419,9 @@
         14.68,
         107.55
       ],
-      "note": "The far-southern crossing towards Kon Tum and Pleiku. No bookable online inventory."
+      "note": "The far-southern crossing towards Kon Tum and Pleiku. No bookable online inventory.",
+      "pageUrl": "https://laosbustickets.com/laos-border-checkpoints/#cp-phoukeua",
+      "guideUrl": "https://laosbustickets.com/laos-vietnam-border-crossings/"
     },
     {
       "id": "panghok",
@@ -416,7 +446,9 @@
         21.33,
         102.95
       ],
-      "note": "The far-northern crossing towards Điện Biên Phủ. Remote, with limited transport."
+      "note": "The far-northern crossing towards Điện Biên Phủ. Remote, with limited transport.",
+      "pageUrl": "https://laosbustickets.com/laos-border-checkpoints/#cp-panghok",
+      "guideUrl": "https://laosbustickets.com/laos-vietnam-border-crossings/"
     }
   ],
   "cambodia": [
@@ -458,7 +490,9 @@
         "A '+US$5 stamp fee' on top of the US$30 Cambodian visa.",
         "Travellers on Indian, Pakistani and Bangladeshi passports report being pulled aside on the Cambodian side and told they must show US$1,500 in cash before entry. There is no such rule."
       ],
-      "note": "The only legal land crossing between Laos and Cambodia. Still called Veun Kham or Dom Kralor by bus companies, blogs and some maps. That is the old post, now local traffic only."
+      "note": "The only legal land crossing between Laos and Cambodia. Still called Veun Kham or Dom Kralor by bus companies, blogs and some maps. That is the old post, now local traffic only.",
+      "pageUrl": "https://laosbustickets.com/laos-border-checkpoints/#cp-nongnokkheane",
+      "guideUrl": "https://laosbustickets.com/laos-cambodia-border-crossing/"
     }
   ],
   "china": [
@@ -485,7 +519,9 @@
         21.18,
         101.69
       ],
-      "note": "The road crossing into Yunnan. About 4 km from Boten railway station, a shared taxi is 60,000 kip or 20 RMB. Not to be confused with the adjacent Lao-China Railway checkpoint, which keeps different, longer hours."
+      "note": "The road crossing into Yunnan. About 4 km from Boten railway station, a shared taxi is 60,000 kip or 20 RMB. Not to be confused with the adjacent Lao-China Railway checkpoint, which keeps different, longer hours.",
+      "pageUrl": "https://laosbustickets.com/laos-border-checkpoints/#cp-boten",
+      "guideUrl": "https://laosbustickets.com/laos-china-border-crossing/"
     },
     {
       "id": "lao-china-railway",
@@ -510,7 +546,9 @@
         101.69
       ],
       "crossingMethod": "Two inspections, one at each side. The train holds roughly an hour at Mohan and again at Boten, and at both you take all your luggage off the train, clear the inspection hall on foot, and reboard the same train afterwards. You do not change trains, but you do not stay in your seat either.",
-      "note": "A separate entry on the Lao register from the Boten road crossing. Through trains hold about 60 minutes here while passengers clear immigration."
+      "note": "A separate entry on the Lao register from the Boten road crossing. Through trains hold about 60 minutes here while passengers clear immigration.",
+      "pageUrl": "https://laosbustickets.com/laos-border-checkpoints/#cp-lao-china-railway",
+      "guideUrl": "https://laosbustickets.com/laos-china-border-crossing/"
     }
   ],
   "reference": [
@@ -526,7 +564,8 @@
       "confidence": "HIGH",
       "verified": "2026-09-23",
       "registerUrl": "https://immigration.gov.la/en/checkpoints/detail/wattay-international-airport",
-      "note": "Vientiane's international airport. Visa on arrival and eVisa are the reliable route here, more so than at any land border."
+      "note": "Vientiane's international airport. Visa on arrival and eVisa are the reliable route here, more so than at any land border.",
+      "pageUrl": "https://laosbustickets.com/laos-border-checkpoints/#cp-wattay-airport"
     },
     {
       "id": "luangprabang-airport",
@@ -540,7 +579,8 @@
       "confidence": "MEDIUM",
       "verified": "2026-09-23",
       "registerUrl": "https://immigration.gov.la/en/checkpoints/detail/luangprabang-international-airport",
-      "note": "Serves the old town directly, about 5 km out."
+      "note": "Serves the old town directly, about 5 km out.",
+      "pageUrl": "https://laosbustickets.com/laos-border-checkpoints/#cp-luangprabang-airport"
     },
     {
       "id": "savannakhet-airport",
@@ -554,7 +594,8 @@
       "confidence": "MEDIUM",
       "verified": "2026-09-23",
       "registerUrl": "https://immigration.gov.la/en/checkpoints/detail/savannakhet-international-airport",
-      "note": "Limited scheduled international service. Not currently a route this site covers with bookable inventory, and the register itself shows neither visa on arrival nor eVisa here, checked 5 September 2026."
+      "note": "Limited scheduled international service. Not currently a route this site covers with bookable inventory, and the register itself shows neither visa on arrival nor eVisa here, checked 5 September 2026.",
+      "pageUrl": "https://laosbustickets.com/laos-border-checkpoints/#cp-savannakhet-airport"
     },
     {
       "id": "pakse-airport",
@@ -568,7 +609,8 @@
       "confidence": "MEDIUM",
       "verified": "2026-09-23",
       "registerUrl": "https://immigration.gov.la/en/checkpoints/detail/pakse-international-airport",
-      "note": "Serves the south, an alternative to the Vang Tao or Nongnokkhene land crossings for reaching Champasak by air."
+      "note": "Serves the south, an alternative to the Vang Tao or Nongnokkhene land crossings for reaching Champasak by air.",
+      "pageUrl": "https://laosbustickets.com/laos-border-checkpoints/#cp-pakse-airport"
     },
     {
       "id": "golden-triangle",
@@ -582,7 +624,8 @@
       "confidence": "MEDIUM",
       "verified": "2026-09-23",
       "registerUrl": "https://immigration.gov.la/en/checkpoints/detail/golden-triangle-international-border-immigration-check-point",
-      "note": "Not currently served by any bookable route on this site. Included for completeness of the official register."
+      "note": "Not currently served by any bookable route on this site. Included for completeness of the official register.",
+      "pageUrl": "https://laosbustickets.com/laos-border-checkpoints/#cp-golden-triangle"
     },
     {
       "id": "meuangmom",
@@ -596,7 +639,8 @@
       "confidence": "MEDIUM",
       "verified": "2026-09-23",
       "registerUrl": "https://immigration.gov.la/en/checkpoints/detail/meuangmom",
-      "note": "Not currently served by any bookable route on this site. Included for completeness of the official register."
+      "note": "Not currently served by any bookable route on this site. Included for completeness of the official register.",
+      "pageUrl": "https://laosbustickets.com/laos-border-checkpoints/#cp-meuangmom"
     },
     {
       "id": "lanetoui",
@@ -610,7 +654,8 @@
       "confidence": "MEDIUM",
       "verified": "2026-09-23",
       "registerUrl": "https://immigration.gov.la/en/checkpoints/detail/lanetoui",
-      "note": "Not currently served by any bookable route on this site. Included for completeness of the official register."
+      "note": "Not currently served by any bookable route on this site. Included for completeness of the official register.",
+      "pageUrl": "https://laosbustickets.com/laos-border-checkpoints/#cp-lanetoui"
     },
     {
       "id": "namheuang-friendship-bridge",
@@ -624,7 +669,8 @@
       "confidence": "MEDIUM",
       "verified": "2026-09-23",
       "registerUrl": "https://immigration.gov.la/en/checkpoints/detail/namheuang-friendship-bridge-international-checkpoint",
-      "note": "Not currently served by any bookable route on this site. Included for completeness of the official register."
+      "note": "Not currently served by any bookable route on this site. Included for completeness of the official register.",
+      "pageUrl": "https://laosbustickets.com/laos-border-checkpoints/#cp-namheuang-friendship-bridge"
     },
     {
       "id": "namngeun",
@@ -638,7 +684,8 @@
       "confidence": "MEDIUM",
       "verified": "2026-09-23",
       "registerUrl": "https://immigration.gov.la/en/checkpoints/detail/namngeun-international-checkpoint",
-      "note": "Not currently served by any bookable route on this site. Included for completeness of the official register."
+      "note": "Not currently served by any bookable route on this site. Included for completeness of the official register.",
+      "pageUrl": "https://laosbustickets.com/laos-border-checkpoints/#cp-namngeun"
     },
     {
       "id": "phoudou",
@@ -652,7 +699,8 @@
       "confidence": "MEDIUM",
       "verified": "2026-09-23",
       "registerUrl": "https://immigration.gov.la/en/checkpoints/detail/phoudou-international-border-checkpoint",
-      "note": "Not currently served by any bookable route on this site. Included for completeness of the official register."
+      "note": "Not currently served by any bookable route on this site. Included for completeness of the official register.",
+      "pageUrl": "https://laosbustickets.com/laos-border-checkpoints/#cp-phoudou"
     },
     {
       "id": "pangmon",
@@ -666,7 +714,8 @@
       "confidence": "MEDIUM",
       "verified": "2026-09-23",
       "registerUrl": "https://immigration.gov.la/en/checkpoints/detail/pangmon-international-boder-checkpoint",
-      "note": "Not currently served by any bookable route on this site. Included for completeness of the official register. Named exactly as spelled on the official register, including its own typo."
+      "note": "Not currently served by any bookable route on this site. Included for completeness of the official register. Named exactly as spelled on the official register, including its own typo.",
+      "pageUrl": "https://laosbustickets.com/laos-border-checkpoints/#cp-pangmon"
     },
     {
       "id": "banvang",
@@ -680,7 +729,8 @@
       "confidence": "MEDIUM",
       "verified": "2026-09-23",
       "registerUrl": "https://immigration.gov.la/en/checkpoints/detail/banvang-international-border-checkpoint",
-      "note": "Not currently served by any bookable route on this site. Included for completeness of the official register."
+      "note": "Not currently served by any bookable route on this site. Included for completeness of the official register.",
+      "pageUrl": "https://laosbustickets.com/laos-border-checkpoints/#cp-banvang"
     },
     {
       "id": "paktaphan",
@@ -694,7 +744,8 @@
       "confidence": "MEDIUM",
       "verified": "2026-09-23",
       "registerUrl": "https://immigration.gov.la/en/checkpoints/detail/paktaphan-international-border-checkpoint",
-      "note": "Not currently served by any bookable route on this site. Included for completeness of the official register."
+      "note": "Not currently served by any bookable route on this site. Included for completeness of the official register.",
+      "pageUrl": "https://laosbustickets.com/laos-border-checkpoints/#cp-paktaphan"
     },
     {
       "id": "pahang",
@@ -708,7 +759,8 @@
       "note": "Not currently served by any bookable route on this site. Included for completeness of the official register. Checked directly against the register on 9 September 2026, after not being individually re-checked on 5 September.",
       "confidence": "MEDIUM",
       "verified": "2026-09-23",
-      "registerUrl": "https://immigration.gov.la/en/checkpoints/detail/pahang-international-border-checkpoint"
+      "registerUrl": "https://immigration.gov.la/en/checkpoints/detail/pahang-international-border-checkpoint",
+      "pageUrl": "https://laosbustickets.com/laos-border-checkpoints/#cp-pahang"
     },
     {
       "id": "khamsavath-station",
@@ -732,7 +784,8 @@
         17.9575,
         102.6747
       ],
-      "note": "The Vientiane terminus of Thailand's railway line from Nong Khai, opened in 2023, about 7 km from the centre. Trains cross the Mekong on the 1st Friendship Bridge's rail track; Thai exit checks happen on the platform at Nong Khai and Lao entry formalities here. Served by the direct overnight sleeper to and from Bangkok Krung Thep Aphiwat (trains 133/134) and by shorter Nong Khai and Udon Thani trains. Visa on arrival and eVisa are both listed. Not to be confused with the Laos-China Railway's Vientiane station, a separate station about 14 to 15 km north-east of the centre that is not an immigration checkpoint."
+      "note": "The Vientiane terminus of Thailand's railway line from Nong Khai, opened in 2023, about 7 km from the centre. Trains cross the Mekong on the 1st Friendship Bridge's rail track; Thai exit checks happen on the platform at Nong Khai and Lao entry formalities here. Served by the direct overnight sleeper to and from Bangkok Krung Thep Aphiwat (trains 133/134) and by shorter Nong Khai and Udon Thani trains. Visa on arrival and eVisa are both listed. Not to be confused with the Laos-China Railway's Vientiane station, a separate station about 14 to 15 km north-east of the centre that is not an immigration checkpoint.",
+      "pageUrl": "https://laosbustickets.com/laos-border-checkpoints/#cp-khamsavath-station"
     }
   ]
 }
