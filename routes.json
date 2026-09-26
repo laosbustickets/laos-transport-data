@@ -124,7 +124,6 @@
       "modes": [
         "train",
         "bus",
-        "van",
         "flight",
         "taxi"
       ],
@@ -172,11 +171,10 @@
       "durationText": "approx 16 hrs",
       "fromLAK": 1071620,
       "modes": [
-        "van",
         "bus",
+        "van",
         "ferry",
-        "flight",
-        "taxi"
+        "flight"
       ],
       "bookable": true,
       "editorialNote": "Several hours shorter than the Chiang Mai run, on the same road through Huay Xai.",
@@ -235,8 +233,6 @@
       "fromLAK": 310050,
       "modes": [
         "bus",
-        "van",
-        "flight",
         "taxi"
       ],
       "bookable": true,
@@ -331,8 +327,7 @@
       "modes": [
         "bus",
         "van",
-        "flight",
-        "taxi"
+        "flight"
       ],
       "bookable": true,
       "direct": true,
@@ -422,8 +417,7 @@
       "durationText": "approx 12 hrs",
       "fromLAK": 658650,
       "modes": [
-        "bus",
-        "van"
+        "bus"
       ],
       "bookable": true,
       "direct": true,
@@ -445,8 +439,7 @@
       "durationText": "approx 15 hrs",
       "fromLAK": 924037,
       "modes": [
-        "bus",
-        "van"
+        "bus"
       ],
       "bookable": true,
       "direct": true,
@@ -467,7 +460,6 @@
       "durationText": "approx 24 hrs",
       "fromLAK": 948529,
       "modes": [
-        "bus",
         "flight"
       ],
       "bookable": true,
@@ -489,7 +481,6 @@
       "fromLAK": 1154929,
       "modes": [
         "bus",
-        "flight",
         "taxi"
       ],
       "bookable": true,
@@ -552,11 +543,10 @@
       "durationText": "approx 24 hrs",
       "fromLAK": 1376567,
       "modes": [
+        "train",
         "bus",
         "van",
-        "train",
-        "flight",
-        "taxi"
+        "flight"
       ],
       "bookable": true,
       "priority": 1,
@@ -605,8 +595,7 @@
       "durationText": "10 h to 10 h 15 m, departing 23:30 or 06:00",
       "fromLAK": 844284,
       "modes": [
-        "bus",
-        "van"
+        "bus"
       ],
       "bookable": true,
       "editorialNote": "Two direct services a day, run by HTX Van Tai 277 and Thakhek Travel.",
@@ -679,8 +668,7 @@
       "modes": [
         "bus",
         "van",
-        "flight",
-        "taxi"
+        "flight"
       ],
       "bookable": true,
       "direct": true,
@@ -727,9 +715,7 @@
       "fromLAK": 487697,
       "modes": [
         "bus",
-        "van",
-        "ferry",
-        "taxi"
+        "van"
       ],
       "bookable": true,
       "direct": true,
@@ -752,8 +738,7 @@
       "modes": [
         "bus",
         "van",
-        "ferry",
-        "taxi"
+        "ferry"
       ],
       "bookable": true,
       "priority": 1,
@@ -776,7 +761,6 @@
       "modes": [
         "bus",
         "van",
-        "ferry",
         "taxi"
       ],
       "bookable": true,
