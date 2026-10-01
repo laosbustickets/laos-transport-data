@@ -538,7 +538,7 @@
       "from": "Luang Prabang",
       "to": "Hanoi",
       "country": "vietnam",
-      "checkpoint": "namsoy",
+      "checkpoint": "namkan",
       "duration": "PT24H",
       "durationText": "approx 24 hrs",
       "fromLAK": 1251150,
@@ -550,12 +550,19 @@
       ],
       "bookable": true,
       "priority": 1,
-      "editorialNote": "The one northern option on this border, via the war-history town of Sam Neua.",
+      "editorialNote": "Runs through Phonsavan to the Nam Kan – Nậm Cắn border; coming the other way, that gate issues no Lao visa on arrival.",
       "verified": "2026-09-30",
-      "pageUrl": "https://laosbustickets.com/laos-vietnam-border-crossings/",
+      "sources": [
+        {
+          "name": "Laovietbus",
+          "url": "https://laovietbus.com/en/luangprabang-hanoi",
+          "for": "the direct sleeper route via Xieng Khouang and the Nam Can border"
+        }
+      ],
+      "pageUrl": "https://laosbustickets.com/luang-prabang-hanoi/",
       "bookingUrl": "https://laosbustickets.com/go/luangprabang-hanoi",
       "reverseBookingUrl": "https://laosbustickets.com/go/hanoi-luangprabang",
-      "checkpointRegisterUrl": "https://immigration.gov.la/en/checkpoints/detail/namsoy"
+      "checkpointRegisterUrl": "https://immigration.gov.la/en/checkpoints/detail/namkan-international-checkpoint"
     },
     {
       "name": "Thakhek to Vinh",
