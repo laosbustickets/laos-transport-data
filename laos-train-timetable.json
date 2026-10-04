@@ -8,7 +8,7 @@
  },
  "license": "https://creativecommons.org/licenses/by/4.0/",
  "citation": "Laos Bus Tickets, \"Laos–China Railway timetable\", https://laosbustickets.com/train-tickets-laos/",
- "checkedAt": "2026-10-04T02:38:59.674Z",
+ "checkedAt": "2026-10-04T03:34:11.940Z",
  "updated": "every morning at 06:00 Laos time; if a check fails the previous timetable is kept",
  "timezones": {
   "LA": "Asia/Vientiane, UTC+7",
