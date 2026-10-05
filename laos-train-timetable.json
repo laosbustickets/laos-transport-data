@@ -8,7 +8,7 @@
  },
  "license": "https://creativecommons.org/licenses/by/4.0/",
  "citation": "Laos Bus Tickets, \"Laos–China Railway timetable\", https://laosbustickets.com/train-tickets-laos/",
- "checkedAt": "2026-10-04T03:34:11.940Z",
+ "checkedAt": "2026-10-04T23:00:58.105Z",
  "updated": "every morning at 06:00 Laos time; if a check fails the previous timetable is kept",
  "timezones": {
   "LA": "Asia/Vientiane, UTC+7",
@@ -20,7 +20,8 @@
   "2026-10-07",
   "2026-10-08",
   "2026-10-09",
-  "2026-10-10"
+  "2026-10-10",
+  "2026-10-11"
  ],
  "summary": {
   "trainsNorthbound": 6,
@@ -40,7 +41,8 @@
     "2026-10-07",
     "2026-10-08",
     "2026-10-09",
-    "2026-10-10"
+    "2026-10-10",
+    "2026-10-11"
    ],
    "weekdays": [
     "Monday",
@@ -48,11 +50,10 @@
     "Wednesday",
     "Thursday",
     "Friday",
-    "Saturday"
-   ],
-   "weekdaysNotOnSaleYet": [
+    "Saturday",
     "Sunday"
    ],
+   "weekdaysNotOnSaleYet": [],
    "stops": [
     {
      "station": "Vientiane",
@@ -144,15 +145,16 @@
    "runsOn": [
     "2026-10-05",
     "2026-10-06",
-    "2026-10-07"
+    "2026-10-07",
+    "2026-10-08"
    ],
    "weekdays": [
     "Monday",
     "Tuesday",
-    "Wednesday"
+    "Wednesday",
+    "Thursday"
    ],
    "weekdaysNotOnSaleYet": [
-    "Thursday",
     "Friday",
     "Saturday",
     "Sunday"
@@ -251,7 +253,8 @@
     "2026-10-07",
     "2026-10-08",
     "2026-10-09",
-    "2026-10-10"
+    "2026-10-10",
+    "2026-10-11"
    ],
    "weekdays": [
     "Monday",
@@ -259,11 +262,10 @@
     "Wednesday",
     "Thursday",
     "Friday",
-    "Saturday"
-   ],
-   "weekdaysNotOnSaleYet": [
+    "Saturday",
     "Sunday"
    ],
+   "weekdaysNotOnSaleYet": [],
    "stops": [
     {
      "station": "Vientiane",
@@ -302,7 +304,8 @@
     "2026-10-07",
     "2026-10-08",
     "2026-10-09",
-    "2026-10-10"
+    "2026-10-10",
+    "2026-10-11"
    ],
    "weekdays": [
     "Monday",
@@ -310,11 +313,10 @@
     "Wednesday",
     "Thursday",
     "Friday",
-    "Saturday"
-   ],
-   "weekdaysNotOnSaleYet": [
+    "Saturday",
     "Sunday"
    ],
+   "weekdaysNotOnSaleYet": [],
    "stops": [
     {
      "station": "Vientiane",
@@ -399,17 +401,17 @@
     "2026-10-05",
     "2026-10-08",
     "2026-10-09",
-    "2026-10-10"
+    "2026-10-10",
+    "2026-10-11"
    ],
    "weekdays": [
     "Monday",
     "Thursday",
     "Friday",
-    "Saturday"
-   ],
-   "weekdaysNotOnSaleYet": [
+    "Saturday",
     "Sunday"
    ],
+   "weekdaysNotOnSaleYet": [],
    "stops": [
     {
      "station": "Vientiane",
@@ -472,7 +474,8 @@
     "2026-10-07",
     "2026-10-08",
     "2026-10-09",
-    "2026-10-10"
+    "2026-10-10",
+    "2026-10-11"
    ],
    "weekdays": [
     "Monday",
@@ -480,11 +483,10 @@
     "Wednesday",
     "Thursday",
     "Friday",
-    "Saturday"
-   ],
-   "weekdaysNotOnSaleYet": [
+    "Saturday",
     "Sunday"
    ],
+   "weekdaysNotOnSaleYet": [],
    "stops": [
     {
      "station": "Vientiane",
@@ -529,17 +531,17 @@
     "2026-10-05",
     "2026-10-06",
     "2026-10-09",
-    "2026-10-10"
+    "2026-10-10",
+    "2026-10-11"
    ],
    "weekdays": [
     "Monday",
     "Tuesday",
     "Friday",
-    "Saturday"
-   ],
-   "weekdaysNotOnSaleYet": [
+    "Saturday",
     "Sunday"
    ],
+   "weekdaysNotOnSaleYet": [],
    "stops": [
     {
      "station": "Boten",
@@ -602,7 +604,8 @@
     "2026-10-07",
     "2026-10-08",
     "2026-10-09",
-    "2026-10-10"
+    "2026-10-10",
+    "2026-10-11"
    ],
    "weekdays": [
     "Monday",
@@ -610,11 +613,10 @@
     "Wednesday",
     "Thursday",
     "Friday",
-    "Saturday"
-   ],
-   "weekdaysNotOnSaleYet": [
+    "Saturday",
     "Sunday"
    ],
+   "weekdaysNotOnSaleYet": [],
    "stops": [
     {
      "station": "Luang Prabang",
@@ -653,7 +655,8 @@
     "2026-10-07",
     "2026-10-08",
     "2026-10-09",
-    "2026-10-10"
+    "2026-10-10",
+    "2026-10-11"
    ],
    "weekdays": [
     "Monday",
@@ -661,11 +664,10 @@
     "Wednesday",
     "Thursday",
     "Friday",
-    "Saturday"
-   ],
-   "weekdaysNotOnSaleYet": [
+    "Saturday",
     "Sunday"
    ],
+   "weekdaysNotOnSaleYet": [],
    "stops": [
     {
      "station": "Kunming South",
@@ -757,15 +759,16 @@
    "runsOn": [
     "2026-10-05",
     "2026-10-06",
-    "2026-10-07"
+    "2026-10-07",
+    "2026-10-08"
    ],
    "weekdays": [
     "Monday",
     "Tuesday",
-    "Wednesday"
+    "Wednesday",
+    "Thursday"
    ],
    "weekdaysNotOnSaleYet": [
-    "Thursday",
     "Friday",
     "Saturday",
     "Sunday"
@@ -864,7 +867,8 @@
     "2026-10-07",
     "2026-10-08",
     "2026-10-09",
-    "2026-10-10"
+    "2026-10-10",
+    "2026-10-11"
    ],
    "weekdays": [
     "Monday",
@@ -872,11 +876,10 @@
     "Wednesday",
     "Thursday",
     "Friday",
-    "Saturday"
-   ],
-   "weekdaysNotOnSaleYet": [
+    "Saturday",
     "Sunday"
    ],
+   "weekdaysNotOnSaleYet": [],
    "stops": [
     {
      "station": "Kunming",
@@ -971,7 +974,8 @@
     "2026-10-07",
     "2026-10-08",
     "2026-10-09",
-    "2026-10-10"
+    "2026-10-10",
+    "2026-10-11"
    ],
    "weekdays": [
     "Monday",
@@ -979,11 +983,10 @@
     "Wednesday",
     "Thursday",
     "Friday",
-    "Saturday"
-   ],
-   "weekdaysNotOnSaleYet": [
+    "Saturday",
     "Sunday"
    ],
+   "weekdaysNotOnSaleYet": [],
    "stops": [
     {
      "station": "Luang Prabang",
