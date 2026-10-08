@@ -9,6 +9,11 @@ on:
 permissions:
   contents: write
 
+# One sync at a time: a manual run and the nightly run never race each other.
+concurrency:
+  group: sync-laos-transport-data
+  cancel-in-progress: false
+
 jobs:
   sync:
     runs-on: ubuntu-latest
@@ -16,16 +21,21 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          # Always start from the current tip of main, also on "Re-run",
+          # which would otherwise check out the run's original commit.
+          ref: main
+          fetch-depth: 0
 
       - name: Download canonical datasets
         run: |
-          curl -fL https://laosbustickets.com/data/routes.json -o routes.json
-          curl -fL https://laosbustickets.com/data/checkpoints.json -o checkpoints.json
-          curl -fL https://laosbustickets.com/data/laos-train-timetable.json -o laos-train-timetable.json
+          curl -fsSL --retry 3 https://laosbustickets.com/data/routes.json -o routes.json
+          curl -fsSL --retry 3 https://laosbustickets.com/data/checkpoints.json -o checkpoints.json
+          curl -fsSL --retry 3 https://laosbustickets.com/data/laos-train-timetable.json -o laos-train-timetable.json
           mkdir -p maps
           for lang in en fr de es ja ko ru; do
-            curl -fL https://laosbustickets.com/data/laos-transport-map-$lang.svg -o maps/laos-transport-map-$lang.svg
-            curl -fL https://laosbustickets.com/data/laos-transport-map-$lang-landscape.svg -o maps/laos-transport-map-$lang-landscape.svg
+            curl -fsSL --retry 3 https://laosbustickets.com/data/laos-transport-map-$lang.svg -o maps/laos-transport-map-$lang.svg
+            curl -fsSL --retry 3 https://laosbustickets.com/data/laos-transport-map-$lang-landscape.svg -o maps/laos-transport-map-$lang-landscape.svg
           done
       - name: Update GitHub repository
         run: |
@@ -36,7 +46,15 @@ jobs:
             echo "No dataset changes detected."
           else
             git commit -m "Update Laos transport datasets"
-            git push
+            # If main moved meanwhile, replay this commit on top; on a clash the
+            # freshly downloaded files win, since the website is the source.
+            for attempt in 1 2 3; do
+              git pull --rebase -X theirs origin main && git push origin HEAD:main && exit 0
+              git rebase --abort 2>/dev/null || true
+              echo "Push attempt $attempt failed, retrying."
+              sleep 10
+            done
+            exit 1
           fi
       - name: Sync to Hugging Face
         env:
