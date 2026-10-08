@@ -124,8 +124,12 @@
 <path d="M1162.1,1146.1 1299.5,1168.9" fill="none" stroke="#2E7D46" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M1162.1,1146.1 1387.3,1225.6" fill="none" stroke="#FFFFFF" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M1162.1,1146.1 1387.3,1225.6" fill="none" stroke="#2E7D46" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M1054.3,1361.1 1162.1,1146.1" fill="none" stroke="#FFFFFF" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M1054.3,1361.1 1162.1,1146.1" fill="none" stroke="#2E7D46" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1054.3,1361.1 1214.3,1190.5" fill="none" stroke="#FFFFFF" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1054.3,1361.1 1214.3,1190.5" fill="none" stroke="#2E7D46" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1214.3,1190.5 1299.5,1168.9" fill="none" stroke="#FFFFFF" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1214.3,1190.5 1299.5,1168.9" fill="none" stroke="#2E7D46" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1214.3,1190.5 1387.3,1225.6" fill="none" stroke="#FFFFFF" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1214.3,1190.5 1387.3,1225.6" fill="none" stroke="#2E7D46" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M917,1035 1048.5,996.2" fill="none" stroke="#FFFFFF" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M917,1035 1048.5,996.2" fill="none" stroke="#2E7D46" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M1048.5,996.2 1091.7,1029.6 1130.1,1058.1 1174.4,1089.9 1213.7,1117 1253.5,1143.4 1299.5,1172.8 1340.2,1197.8 1387.3,1225.6" fill="none" stroke="#FFFFFF" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -253,7 +257,7 @@
 <text x="1678" y="98" font-size="24" font-weight="700" letter-spacing="-0.3" fill="#0A2A57">laosbustickets<tspan fill="#C41230">.com</tspan></text>
 <text x="1612" y="182" font-size="46" font-weight="700" letter-spacing="-1" fill="#0A2A57">Verkehrskarte Laos</text>
 <text x="1612" y="236.9" font-size="19" fill="#55627A">Busse, Züge und Grenzübergänge in und um Laos</text>
-<text x="1612" y="280.9" font-size="14" font-weight="600" letter-spacing="2.4" fill="#66738A">AKTUALISIERT<tspan dx="12" font-size="17" font-weight="700" letter-spacing="0" fill="#0A2A57">4. Oktober 2026</tspan></text>
+<text x="1612" y="280.9" font-size="14" font-weight="600" letter-spacing="2.4" fill="#66738A">AKTUALISIERT<tspan dx="12" font-size="17" font-weight="700" letter-spacing="0" fill="#0A2A57">8. Oktober 2026</tspan></text>
 <line x1="1612" y1="314.9" x2="2172" y2="314.9" stroke="#DDE3EC" stroke-width="1.2"/>
 <text x="1612" y="358.9" font-size="14" font-weight="700" letter-spacing="2.4" fill="#66738A">LEGENDE</text>
 <line x1="1612" y1="394.9" x2="1658" y2="394.9" stroke="#0A2A57" stroke-width="3.6" stroke-linecap="round"/><text x="1672" y="400.4" font-size="16" fill="#0A2A57">Innerhalb von Laos</text>
