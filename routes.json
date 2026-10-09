@@ -758,8 +758,7 @@
       "fromLAK": 554708,
       "modes": [
         "bus",
-        "van",
-        "ferry"
+        "van"
       ],
       "bookable": true,
       "priority": 1,
@@ -804,7 +803,6 @@
       "fromLAK": 800857,
       "modes": [
         "van",
-        "ferry",
         "bus",
         "taxi"
       ],
