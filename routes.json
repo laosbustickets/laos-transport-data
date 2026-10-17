@@ -982,6 +982,34 @@
       "pageUrl": "https://laosbustickets.com/nong-khiaw-bus-tickets/",
       "bookingUrl": "https://laosbustickets.com/go/luangprabang-nongkhiaw",
       "reverseBookingUrl": "https://laosbustickets.com/go/nongkhiaw-luangprabang"
+    },
+    {
+      "name": "Muang Khua to Dien Bien Phu",
+      "from": "Muang Khua",
+      "to": "Dien Bien Phu",
+      "country": "vietnam",
+      "checkpoint": "panghok",
+      "durationText": "",
+      "modes": [
+        "bus"
+      ],
+      "bookable": false,
+      "editorialNote": "Not sold online. A local bus runs between Muang Khua and Điện Biên Phủ through the Pang Hok–Tây Trang crossing; buy the ticket at the bus station, and expect to agree the fare with the driver if the counter is closed.",
+      "verified": "2026-10-16",
+      "sources": [
+        {
+          "name": "Reddit r/laos (traveller report)",
+          "url": "https://www.reddit.com/r/laos/comments/1u0z517/",
+          "for": "the local bus and the ticket counter (June 2026)"
+        },
+        {
+          "name": "Reddit r/VietNam (traveller reply)",
+          "url": "https://www.reddit.com/r/VietNam/comments/1oz5cfw/",
+          "for": "Tây Trang as the usual crossing to Muang Khua (November 2025)"
+        }
+      ],
+      "pageUrl": "https://laosbustickets.com/laos-vietnam-border-crossings/",
+      "checkpointRegisterUrl": "https://immigration.gov.la/en/checkpoints/detail/panghok"
     }
   ],
   "trains": [
