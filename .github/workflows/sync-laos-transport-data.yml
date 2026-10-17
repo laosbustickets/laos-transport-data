@@ -33,7 +33,7 @@ jobs:
           curl -fsSL --retry 3 https://laosbustickets.com/data/checkpoints.json -o checkpoints.json
           curl -fsSL --retry 3 https://laosbustickets.com/data/laos-train-timetable.json -o laos-train-timetable.json
           mkdir -p maps
-          for lang in en fr de es ja ko ru; do
+          for lang in en fr de es ja ko ru zh; do
             curl -fsSL --retry 3 https://laosbustickets.com/data/laos-transport-map-$lang.svg -o maps/laos-transport-map-$lang.svg
             curl -fsSL --retry 3 https://laosbustickets.com/data/laos-transport-map-$lang-landscape.svg -o maps/laos-transport-map-$lang-landscape.svg
           done
