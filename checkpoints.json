@@ -136,14 +136,13 @@
       "visaOnArrival": false,
       "eVisa": false,
       "confidence": "MEDIUM",
-      "verified": "2026-10-14",
+      "verified": "2026-10-17",
       "registerUrl": "https://immigration.gov.la/en/checkpoints/detail/the-fifth-lao-thai-friendship-bridge",
       "voaPractice": "Settled as of 16 September 2026. Earlier reporting, including our own on 4 September 2026, listed visa on arrival and eVisa as available here. The official register has now shown both as not available on three separate checks, 5, 9 and 16 September 2026, with nothing contradicting it. Treat this crossing as issuing no visa of any kind: arrange one in advance, or cross at a bridge with a confirmed visa service. Confidence is MEDIUM rather than HIGH because the bridge is new and no independent traveller report of visa practice here has surfaced yet.",
       "email": "pakxan.doi@gmail.com",
       "opened": "2025-12-27",
       "isNew": true,
-      "crossingMethod": "Built 17.4 m wide with two traffic lanes, a central median and pedestrian walkways on both sides. Whether pedestrians may actually cross on foot is not confirmed, see open questions.",
-      "unconfirmed": "Pedestrian access. The walkways exist; permission to walk across is not confirmed in any source we could find. Do not assume the shuttle-only rule from bridges 1–4 applies here, and do not assume it does not.",
+      "crossingMethod": "Built 17.4 m wide with two traffic lanes and a central median. The scheduled cross-border bus (busService) runs between Pakxan and Bueng Kan.",
       "fee": "No crossing fee during the initial phase, toll arrangements are still being finalised in both countries.",
       "length": "1,350 m",
       "geo": [
@@ -169,11 +168,6 @@
         "phone": "042-490-690 (Bueng Kan Provincial Bus Terminal)"
       },
       "note": "Opened to the public on 27 December 2025 and still absent from almost every English-language travel guide. Links Lao Route 13 directly to Thai Highway 244.",
-      "unconfirmedI18n": {
-        "ja": "歩行者の通行について。歩道はありますが、徒歩で渡ってよいかどうかは、私たちが調べた限りどの情報源でも確認できていません。第1~第4友好橋のシャトル限定ルールがここにも当てはまるとも、当てはまらないとも決めつけないでください。",
-        "ko": "보행자 통행. 보도는 있지만, 걸어서 건너도 되는지는 저희가 찾아본 어떤 자료에서도 확인되지 않았습니다. 제1~4 우정의 다리의 셔틀 전용 규칙이 이곳에도 적용된다고도, 적용되지 않는다고도 단정하지 마세요.",
-        "ru": "Пешеходный переход. Тротуары есть, но разрешение переходить мост пешком не подтверждено ни одним источником, который нам удалось найти. Не рассчитывайте, что здесь действует правило мостов 1–4 (только шаттл), но и не рассчитывайте, что оно не действует."
-      },
       "pageUrl": "https://laosbustickets.com/laos-border-checkpoints/#cp-friendship-bridge-5",
       "guideUrl": "https://laosbustickets.com/laos-thailand-border-crossings/"
     },
@@ -221,7 +215,7 @@
       "visaOnArrival": true,
       "eVisa": false,
       "confidence": "HIGH",
-      "verified": "2026-10-14",
+      "verified": "2026-10-17",
       "registerUrl": "https://immigration.gov.la/en/checkpoints/detail/dansavan-international-border-gate",
       "eVisaPractice": "The register shows eVisa as not available at this checkpoint as of 5 September 2026 (it was not checked on 4 September). Visa on arrival, not the eVisa, is the route in here.",
       "voaPractice": "The one Laos–Vietnam crossing every source agrees issues Lao visa on arrival. With every other Laos–Vietnam checkpoint confirmed on 9 September 2026 as issuing neither visa on arrival nor eVisa, this is now the only one that does. If you are entering Laos from Vietnam without a visa, this is the safe choice.",
@@ -251,7 +245,7 @@
       "voaPractice": "Settled as of 9 September 2026. The register briefly listed visa on arrival here on 4 September, disputed by long-standing traveller reports saying people are turned away; checked again on 5 and 9 September, the register itself now consistently shows visa on arrival and eVisa as not available, matching those traveller reports. Do not rely on getting a visa at this crossing: arrange one before you travel.",
       "eVisa": false,
       "confidence": "HIGH",
-      "verified": "2026-10-14",
+      "verified": "2026-10-17",
       "registerUrl": "https://immigration.gov.la/en/checkpoints/detail/namphao-international-checkpoint",
       "eVisaPractice": "Lao eVisas are widely reported as not accepted overland from Vietnam, and the official register agrees: eVisa has shown as not available here since 5 September 2026.",
       "vietnamEVisa": true,
@@ -279,7 +273,7 @@
       "voaPractice": "Settled as of 9 September 2026, see Nam Phao. The register briefly showed visa on arrival on 4 September; checked again on 5 and 9 September it consistently shows neither visa on arrival nor eVisa. Arrange a visa in advance for this crossing.",
       "eVisa": false,
       "confidence": "HIGH",
-      "verified": "2026-10-14",
+      "verified": "2026-10-17",
       "registerUrl": "https://immigration.gov.la/en/checkpoints/detail/namkan-international-checkpoint",
       "vietnamEVisa": true,
       "geo": [
@@ -307,7 +301,7 @@
       "voaPractice": "Settled as of 9 September 2026, see Nam Phao. The register briefly showed visa on arrival on 4 September; checked again on 5 and 9 September it consistently shows neither visa on arrival nor eVisa. Arrange a visa in advance for this crossing.",
       "eVisa": false,
       "confidence": "HIGH",
-      "verified": "2026-10-14",
+      "verified": "2026-10-17",
       "registerUrl": "https://immigration.gov.la/en/checkpoints/detail/namsoy",
       "vietnamEVisa": true,
       "geo": [
@@ -333,7 +327,7 @@
       "voaPractice": "Settled as of 9 September 2026. Published on 4 September as visa-on-arrival with no dispute noted; checked again on 5 and 9 September the register consistently shows neither visa on arrival nor eVisa available here, matching the pattern at every other Laos–Vietnam checkpoint except Dansavan. Arrange a visa in advance for this crossing.",
       "eVisa": false,
       "confidence": "HIGH",
-      "verified": "2026-10-14",
+      "verified": "2026-10-17",
       "registerUrl": "https://immigration.gov.la/en/checkpoints/detail/naphao-international-border-checkpoint",
       "vietnamEVisa": true,
       "geo": [
@@ -361,7 +355,7 @@
       "voaPractice": "Not re-checked on 5 September 2026; checked directly on 9 September, the register shows neither visa on arrival nor eVisa, matching the pattern at every other Laos–Vietnam checkpoint except Dansavan. Arrange a visa in advance for this crossing.",
       "eVisa": false,
       "confidence": "HIGH",
-      "verified": "2026-10-14",
+      "verified": "2026-10-17",
       "registerUrl": "https://immigration.gov.la/en/checkpoints/detail/la-lai-international-checkpoint",
       "vietnamEVisa": true,
       "geo": [
@@ -389,7 +383,7 @@
       "voaPractice": "Not re-checked on 5 September 2026; checked directly on 9 September, the register shows neither visa on arrival nor eVisa, matching the pattern at every other Laos–Vietnam checkpoint except Dansavan. Arrange a visa in advance for this crossing.",
       "eVisa": false,
       "confidence": "HIGH",
-      "verified": "2026-10-14",
+      "verified": "2026-10-17",
       "registerUrl": "https://immigration.gov.la/en/checkpoints/detail/dak-ta-ock-international-border-checkpoint",
       "vietnamEVisa": true,
       "geo": [
@@ -418,7 +412,7 @@
       "voaPractice": "Settled as of 9 September 2026, see Nam Phao. Not re-checked on 5 September; checked directly on 9 September, the register shows neither visa on arrival nor eVisa. Arrange a visa in advance for this crossing.",
       "eVisa": false,
       "confidence": "HIGH",
-      "verified": "2026-10-14",
+      "verified": "2026-10-17",
       "registerUrl": "https://immigration.gov.la/en/checkpoints/detail/phoukeua-international-border-check-point",
       "vietnamEVisa": true,
       "geo": [
@@ -445,7 +439,7 @@
       "voaPractice": "Settled as of 9 September 2026, see Nam Phao. The register briefly showed visa on arrival on 4 September; checked again on 5 and 9 September it consistently shows neither visa on arrival nor eVisa. Arrange a visa in advance for this crossing.",
       "eVisa": false,
       "confidence": "HIGH",
-      "verified": "2026-10-14",
+      "verified": "2026-10-17",
       "registerUrl": "https://immigration.gov.la/en/checkpoints/detail/panghok",
       "vietnamEVisa": true,
       "geo": [
@@ -476,7 +470,7 @@
       "visaOnArrival": true,
       "eVisa": false,
       "confidence": "HIGH",
-      "verified": "2026-10-14",
+      "verified": "2026-10-17",
       "registerUrl": "https://immigration.gov.la/en/checkpoints/detail/nongnokkheane-international-border-checkpoint",
       "eVisaPractice": "Settled as of 9 September 2026. The official Lao register previously listed the eVisa as valid here, while Travelfish and multiple field reports said it was not accepted and that visa on arrival was the only thing that worked. Checked again on 9 September, the register itself now shows eVisa as not available at this checkpoint, matching what travellers had been reporting all along. Bring USD cash for visa on arrival.",
       "isOnlyCrossing": true,
@@ -486,8 +480,8 @@
         106.02849
       ],
       "cambodiaVisa": {
-        "voaLandBorder": "US$30",
-        "eVisa": "US$30 (evisa.gov.kh lists Visa T at USD 30; several booking guides still quote a further US$6 processing charge at checkout, which we could not confirm on the official payment page, since it sits behind a captcha. Budget US$36 and expect US$30)",
+        "voaLandBorder": "No official fee published; travellers report US$30 in 2026, paid in US dollars",
+        "eVisa": "US$30 (evisa.gov.kh, Visa T, read 17 October 2026)",
         "eVisaWarning": "Trapeang Kriel is one of only two Cambodian land checkpoints that accept the e-visa at all, the other being Bavet. Visa on arrival in cash is still the simpler choice if you have it."
       },
       "unofficialFees": [

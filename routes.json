@@ -333,7 +333,7 @@
       "direct": true,
       "priority": 1,
       "editorialNote": "An overnight sleeper between the two capitals, the main road link on this border.",
-      "verified": "2026-10-14",
+      "verified": "2026-10-17",
       "pageUrl": "https://laosbustickets.com/vientiane-hanoi/",
       "bookingUrl": "https://laosbustickets.com/go/vientiane-hanoi",
       "reverseBookingUrl": "https://laosbustickets.com/go/hanoi-vientiane",
@@ -357,7 +357,7 @@
       "bookable": false,
       "direct": true,
       "editorialNote": "Not sold online at the moment: no bookable seats on any of seven dates checked between 30 September and 4 November 2026, in either direction. A daily sleeper still appears on the published timetable, leaving Vientiane at 06:00 and taking about 14 hours; ask at Vientiane's Southern Bus Terminal (Dong Dok).",
-      "verified": "2026-10-14",
+      "verified": "2026-10-17",
       "pageUrl": "https://laosbustickets.com/laos-vietnam-border-crossings/",
       "checkpointRegisterUrl": "https://immigration.gov.la/en/checkpoints/detail/namphao-international-checkpoint"
     },
@@ -378,7 +378,7 @@
       ],
       "bookable": true,
       "editorialNote": "Crosses into central Vietnam, with Hue's imperial citadel a short hop onward from the border.",
-      "verified": "2026-10-14",
+      "verified": "2026-10-17",
       "pageUrl": "https://laosbustickets.com/laos-vietnam-border-crossings/",
       "bookingUrl": "https://laosbustickets.com/go/vientiane-hue",
       "reverseBookingUrl": "https://laosbustickets.com/go/hue-vientiane",
@@ -401,7 +401,7 @@
       ],
       "bookable": true,
       "editorialNote": "The longest of the routes on this crossing, ending on Vietnam's central coast.",
-      "verified": "2026-10-14",
+      "verified": "2026-10-17",
       "pageUrl": "https://laosbustickets.com/laos-vietnam-border-crossings/",
       "bookingUrl": "https://laosbustickets.com/go/vientiane-danang",
       "reverseBookingUrl": "https://laosbustickets.com/go/danang-vientiane",
@@ -423,7 +423,7 @@
       "direct": true,
       "priority": 1,
       "editorialNote": "The busiest Laos–Vietnam gate, on the way to Hue's imperial citadel.",
-      "verified": "2026-10-14",
+      "verified": "2026-10-17",
       "pageUrl": "https://laosbustickets.com/laos-vietnam-border-crossings/",
       "bookingUrl": "https://laosbustickets.com/go/savannakhet-hue",
       "reverseBookingUrl": "https://laosbustickets.com/go/hue-savannakhet",
@@ -444,7 +444,7 @@
       "bookable": true,
       "direct": true,
       "editorialNote": "The same crossing as the Hue service, continuing further down the coast.",
-      "verified": "2026-10-14",
+      "verified": "2026-10-17",
       "pageUrl": "https://laosbustickets.com/laos-vietnam-border-crossings/",
       "bookingUrl": "https://laosbustickets.com/go/savannakhet-danang",
       "reverseBookingUrl": "https://laosbustickets.com/go/danang-savannakhet",
@@ -485,7 +485,7 @@
       ],
       "bookable": true,
       "editorialNote": "Direct minivans leave Pakse around 04:00 and cross at La Lay via Salavan. No Lao visa is issued at La Lay, so coming the other way you need one in advance.",
-      "verified": "2026-10-14",
+      "verified": "2026-10-17",
       "sources": [
         {
           "name": "Laovietbus: Pakse to Hue and Da Nang",
@@ -514,7 +514,7 @@
       ],
       "bookable": true,
       "editorialNote": "The same early minivans as Pakse to Hue, via La Lay, continuing to the coast.",
-      "verified": "2026-10-14",
+      "verified": "2026-10-17",
       "sources": [
         {
           "name": "Laovietbus: Pakse to Hue and Da Nang",
@@ -541,7 +541,7 @@
       ],
       "bookable": true,
       "editorialNote": "A quieter crossing than the others on this border, close to the Phong Nha caves.",
-      "verified": "2026-10-14",
+      "verified": "2026-10-17",
       "pageUrl": "https://laosbustickets.com/laos-vietnam-border-crossings/",
       "bookingUrl": "https://laosbustickets.com/go/thakhek-danang",
       "reverseBookingUrl": "https://laosbustickets.com/go/danang-thakhek",
@@ -565,7 +565,7 @@
       "bookable": true,
       "priority": 1,
       "editorialNote": "Runs through Phonsavan to the Nam Kan – Nậm Cắn border; coming the other way, that gate issues no Lao visa on arrival.",
-      "verified": "2026-10-14",
+      "verified": "2026-10-17",
       "sources": [
         {
           "name": "Laovietbus",
@@ -620,7 +620,7 @@
       ],
       "bookable": true,
       "editorialNote": "Two direct services a day, run by HTX Van Tai 277 and Thakhek Travel.",
-      "verified": "2026-10-14",
+      "verified": "2026-10-17",
       "sources": [
         {
           "name": "Viet Lao Bus (vietnambus.com.vn)",
@@ -665,8 +665,8 @@
       ],
       "bookable": false,
       "flightOnly": true,
-      "editorialNote": "No through ticket you can book: no bookable online inventory on this pair on three dates checked in September and October 2026. The flights themselves do run, all connecting through Vientiane, on Lao Airlines, Lao Skyway, Lanexang Airways or Cambodia Angkor Air. Overland means a local bus to the Na Mèo crossing and onward transport arranged on the Vietnamese side.",
-      "verified": "2026-10-14",
+      "editorialNote": "No through ticket you can book: no bookable online inventory on this pair on three dates checked in September and October 2026. The flights themselves do run, all connecting through Vientiane, on Lao Airlines, Lao Skyway, Lanexang Airways or Cambodia Angkor Air. Overland, no scheduled bus across the Na Mèo crossing could be found in October 2026; travellers report crossing by motorbike, shared taxi or hitchhiking.",
+      "verified": "2026-10-17",
       "sources": [
         {
           "name": "Lao Airlines",
@@ -683,8 +683,8 @@
       "to": "Siem Reap",
       "country": "cambodia",
       "checkpoint": "nongnokkheane",
-      "duration": "PT14H",
-      "durationText": "approx 14 hrs",
+      "duration": "PT10H",
+      "durationText": "9.5–10 hrs advertised",
       "fromLAK": 694671,
       "modes": [
         "bus",
@@ -695,7 +695,7 @@
       "direct": true,
       "priority": 1,
       "editorialNote": "The gateway to Angkor Wat, on Laos's only crossing into Cambodia.",
-      "verified": "2026-10-14",
+      "verified": "2026-10-17",
       "pageUrl": "https://laosbustickets.com/laos-cambodia-border-crossing/",
       "bookingUrl": "https://laosbustickets.com/go/pakse-siemreap",
       "reverseBookingUrl": "https://laosbustickets.com/go/siemreap-pakse",
@@ -707,8 +707,8 @@
       "to": "Phnom Penh",
       "country": "cambodia",
       "checkpoint": "nongnokkheane",
-      "duration": "PT14H",
-      "durationText": "approx 14 hrs",
+      "duration": "PT12H",
+      "durationText": "11–12 hrs advertised",
       "fromLAK": 789620,
       "modes": [
         "bus",
@@ -719,7 +719,7 @@
       "bookable": true,
       "direct": true,
       "editorialNote": "The same crossing as the Siem Reap service, continuing south to the Cambodian capital.",
-      "verified": "2026-10-14",
+      "verified": "2026-10-17",
       "pageUrl": "https://laosbustickets.com/laos-cambodia-border-crossing/",
       "bookingUrl": "https://laosbustickets.com/go/pakse-phnompenh",
       "reverseBookingUrl": "https://laosbustickets.com/go/phnompenh-pakse",
@@ -753,8 +753,8 @@
       "to": "Siem Reap",
       "country": "cambodia",
       "checkpoint": "nongnokkheane",
-      "duration": "PT12H",
-      "durationText": "approx 12 hrs",
+      "duration": "PT8H",
+      "durationText": "approx 8 hrs advertised",
       "fromLAK": 554708,
       "modes": [
         "bus",
@@ -763,7 +763,7 @@
       "bookable": true,
       "priority": 1,
       "editorialNote": "Starts right at the border, shaving hours off the same journey from Pakse.",
-      "verified": "2026-10-14",
+      "verified": "2026-10-17",
       "pageUrl": "https://laosbustickets.com/laos-cambodia-border-crossing/",
       "bookingUrl": "https://laosbustickets.com/go/4000islands-siemreap",
       "reverseBookingUrl": "https://laosbustickets.com/go/siemreap-4000islands",
@@ -798,8 +798,8 @@
       "to": "Phnom Penh",
       "country": "cambodia",
       "checkpoint": "nongnokkheane",
-      "duration": "PT12H",
-      "durationText": "approx 12 hrs",
+      "duration": "PT10H",
+      "durationText": "9–10 hrs advertised",
       "fromLAK": 800857,
       "modes": [
         "van",
@@ -808,7 +808,7 @@
       ],
       "bookable": true,
       "editorialNote": "Starts closer to the crossing than the Pakse service, for travellers already based in the islands.",
-      "verified": "2026-10-14",
+      "verified": "2026-10-17",
       "pageUrl": "https://laosbustickets.com/laos-cambodia-border-crossing/",
       "bookingUrl": "https://laosbustickets.com/go/4000islands-phnompenh",
       "reverseBookingUrl": "https://laosbustickets.com/go/phnompenh-4000islands",
@@ -1170,6 +1170,11 @@
           "name": "Вокзал Вьентьян (железная дорога Лаос–Китай)",
           "distanceToTown": "примерно в 14–15 км к северо-востоку от центра, Дон Нун (район Сайтхани)",
           "transfer": "Маршрутный минивэн или такси; до центра не меньше 30 минут, а сразу после прибытия поезда дольше. Билеты продают и в городе, на первом этаже Vientiane Center."
+        },
+        "zh": {
+          "name": "永珍火車站（中寮鐵路）",
+          "distanceToTown": "市中心東北方約 14–15 km，位於 Xaythany 區 Don Noun",
+          "transfer": "搭共乘小巴或計程車到市區至少留 30 分鐘，火車剛到站時要更久。市區 Vientiane Center 一樓也售票。"
         }
       }
     },
@@ -1198,6 +1203,11 @@
           "name": "Вокзал Ванг Вьенг",
           "distanceToTown": "в 3–4 км к северу от города",
           "transfer": "Минивэн или зелёный маршрутный автобус за 40 000 кип либо тук-тук, около 10 минут."
+        },
+        "zh": {
+          "name": "萬榮火車站",
+          "distanceToTown": "市區北方 3–4 km",
+          "transfer": "搭小巴或綠色共乘巴士，票價 40,000 kip；也可搭嘟嘟車，車程約 10 分鐘。"
         }
       }
     },
@@ -1226,6 +1236,11 @@
           "name": "Вокзал Луанг Прабанг",
           "distanceToTown": "около 11 км от старого города",
           "transfer": "Маршрутный минивэн около 30 минут, примерно 40 000 кип с человека; такси в несколько раз дороже. Билеты продают и в старом городе, так что ехать на вокзал дважды не нужно."
+        },
+        "zh": {
+          "name": "龍坡邦火車站",
+          "distanceToTown": "距舊城區約 11 km",
+          "transfer": "共乘小巴約 30 分鐘，每人約 40,000 kip；包車計程車價格高出數倍。舊城區也售票，不必為買票往返車站兩次。"
         }
       }
     },
@@ -1254,6 +1269,11 @@
           "name": "Вокзал Ботэн",
           "distanceToTown": "около 4 км от автомобильного пограничного перехода",
           "transfer": "Маршрутное такси за 60 000 кип или 20 юаней."
+        },
+        "zh": {
+          "name": "磨丁火車站",
+          "distanceToTown": "距公路口岸約 4 km",
+          "transfer": "共乘計程車 60,000 kip 或 20 RMB。"
         }
       }
     }
