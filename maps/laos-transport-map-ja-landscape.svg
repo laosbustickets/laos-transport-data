@@ -42,7 +42,6 @@
 <text x="867.9" y="1725.4" text-anchor="middle" font-size="22" font-weight="700" letter-spacing="7" fill="#9AA7BA">カンボジア</text>
 <text x="138.6" y="472.6" text-anchor="middle" font-size="22" font-weight="700" letter-spacing="7" fill="#9AA7BA">ミャンマー</text>
 <text x="634" y="294.7" text-anchor="middle" font-size="22" font-weight="700" letter-spacing="7" fill="#9AA7BA">中国</text>
-<text x="753.7" y="805.3" text-anchor="middle" font-size="40" font-weight="700" letter-spacing="16" fill="#0A2A57">ラオス</text>
 <text x="386.3" y="1781.7" text-anchor="middle" font-size="17" font-style="italic" letter-spacing="1.2" fill="#5B7FA8" transform="rotate(0 386.3 1781.7)">タイランド湾</text>
 <text x="1253.2" y="693" text-anchor="middle" font-size="17" font-style="italic" letter-spacing="1.2" fill="#5B7FA8" transform="rotate(0 1253.2 693)">トンキン湾</text>
 <text x="1404.6" y="1041.4" text-anchor="middle" font-size="17" font-style="italic" letter-spacing="1.2" fill="#5B7FA8" transform="rotate(-38 1404.6 1041.4)">南シナ海</text>
@@ -64,6 +63,12 @@
 <path d="M549.5,672.7 592.4,814.2" fill="none" stroke="#0A2A57" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M549.5,672.7 614.7,572.9" fill="none" stroke="#FFFFFF" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M549.5,672.7 614.7,572.9" fill="none" stroke="#0A2A57" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M615.2,952.7 696.8,736.6" fill="none" stroke="#FFFFFF" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M615.2,952.7 696.8,736.6" fill="none" stroke="#0A2A57" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M549.5,672.7 696.8,736.6" fill="none" stroke="#FFFFFF" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M549.5,672.7 696.8,736.6" fill="none" stroke="#0A2A57" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M759.1,890.7 696.8,736.6" fill="none" stroke="#FFFFFF" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M759.1,890.7 696.8,736.6" fill="none" stroke="#0A2A57" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7 6"/>
 <path d="M1054.3,1361.1 1085.2,1530.9" fill="none" stroke="#FFFFFF" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M1054.3,1361.1 1085.2,1530.9" fill="none" stroke="#9E6711" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M1085.2,1530.9 786.6,1610.7" fill="none" stroke="#FFFFFF" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -196,6 +201,7 @@
 <circle cx="1077.3" cy="1586.7" r="4.2" fill="#FFFFFF" stroke="#55627A" stroke-width="2"/>
 <circle cx="600.4" cy="497.6" r="4.2" fill="#FFFFFF" stroke="#0A2A57" stroke-width="2"/>
 <circle cx="670.6" cy="451.6" r="4.2" fill="#FFFFFF" stroke="#55627A" stroke-width="2"/>
+<circle cx="696.8" cy="736.6" r="4.2" fill="#FFFFFF" stroke="#0A2A57" stroke-width="2"/>
 <line x1="628.4" y1="963.9" x2="638.4" y2="965.9" stroke="#0C8271" stroke-width="2"/><circle cx="628.4" cy="963.9" r="3" fill="#0C8271"/>
 <circle cx="638.4" cy="965.9" r="12.5" fill="#0C8271" stroke="#FFFFFF" stroke-width="2.6"/><text x="638.4" y="970.8" text-anchor="middle" font-size="13.5" font-weight="700" fill="#FFFFFF">1</text>
 <line x1="910.1" y1="1149.4" x2="896.1" y2="1135.4" stroke="#0C8271" stroke-width="2"/><circle cx="910.1" cy="1149.4" r="3" fill="#0C8271"/>
@@ -218,6 +224,7 @@
 <circle cx="1269.2" cy="1300.9" r="12.5" fill="#FFFFFF" stroke="#2E7D46" stroke-width="3"/><text x="1269.2" y="1305.8" text-anchor="middle" font-size="13.5" font-weight="700" fill="#2E7D46">15</text>
 <circle cx="1294.9" cy="1419.9" r="12.5" fill="#2E7D46" stroke="#FFFFFF" stroke-width="2.6"/><text x="1294.9" y="1424.8" text-anchor="middle" font-size="13.5" font-weight="700" fill="#FFFFFF">16</text>
 <circle cx="1085.2" cy="1530.9" r="12.5" fill="#9E6711" stroke="#FFFFFF" stroke-width="2.6"/><text x="1085.2" y="1535.8" text-anchor="middle" font-size="13.5" font-weight="700" fill="#FFFFFF">17</text>
+<text x="753.7" y="805.3" text-anchor="middle" font-size="40" font-weight="700" letter-spacing="16" fill="#0A2A57" paint-order="stroke" stroke="#FFFFFF" stroke-width="9" stroke-linejoin="round">ラオス</text>
 <text x="601.2" y="942.7" text-anchor="end" font-size="21" font-weight="700" letter-spacing="1.2" fill="#0A2A57" paint-order="stroke" stroke="#FFFFFF" stroke-width="4.5" stroke-linejoin="round">VIENTIANE</text>
 <text x="535.5" y="696.7" text-anchor="end" font-size="17" font-weight="700" fill="#0A2A57" paint-order="stroke" stroke="#FFFFFF" stroke-width="4.5" stroke-linejoin="round">Luang Prabang</text>
 <text x="328.3" y="609.5" text-anchor="start" font-size="17" font-weight="700" fill="#0A2A57" paint-order="stroke" stroke="#FFFFFF" stroke-width="4.5" stroke-linejoin="round">Huay Xai</text>
@@ -251,6 +258,7 @@
 <text x="1089.3" y="1591.7" text-anchor="start" font-size="14.5" font-weight="600" fill="#55627A" paint-order="stroke" stroke="#FFFFFF" stroke-width="4.5" stroke-linejoin="round">Stung Treng</text>
 <text x="588.4" y="502.6" text-anchor="end" font-size="14.5" font-weight="600" fill="#0A2A57" paint-order="stroke" stroke="#FFFFFF" stroke-width="4.5" stroke-linejoin="round">Muang Khua</text>
 <text x="682.6" y="456.6" text-anchor="start" font-size="14.5" font-weight="600" fill="#55627A" paint-order="stroke" stroke="#FFFFFF" stroke-width="4.5" stroke-linejoin="round">Dien Bien Phu</text>
+<text x="708.8" y="741.6" text-anchor="start" font-size="14.5" font-weight="600" fill="#0A2A57" paint-order="stroke" stroke="#FFFFFF" stroke-width="4.5" stroke-linejoin="round">Phonsavan</text>
 </g>
 <rect x="56" y="250" width="1500" height="1672.2" rx="20" fill="none" stroke="#DDE3EC" stroke-width="1.5"/>
 <g font-size="13" fill="#55627A"><rect x="76" y="1842.2" width="249.4" height="66" rx="12" fill="#FFFFFF" fill-opacity="0.92"/>
@@ -265,7 +273,7 @@
 <text x="1678" y="98" font-size="24" font-weight="700" letter-spacing="-0.3" fill="#0A2A57">laosbustickets<tspan fill="#C41230">.com</tspan></text>
 <text x="1612" y="182" font-size="46" font-weight="700" letter-spacing="-1" fill="#0A2A57">ラオス交通マップ</text>
 <text x="1612" y="236.9" font-size="19" fill="#55627A">ラオスと周辺国を結ぶバス・鉄道・国境</text>
-<text x="1612" y="280.9" font-size="14" font-weight="600" letter-spacing="2.4" fill="#66738A">更新日<tspan dx="12" font-size="17" font-weight="700" letter-spacing="0" fill="#0A2A57">2026年10月14日</tspan></text>
+<text x="1612" y="280.9" font-size="14" font-weight="600" letter-spacing="2.4" fill="#66738A">更新日<tspan dx="12" font-size="17" font-weight="700" letter-spacing="0" fill="#0A2A57">2026年10月21日</tspan></text>
 <line x1="1612" y1="314.9" x2="2172" y2="314.9" stroke="#DDE3EC" stroke-width="1.2"/>
 <text x="1612" y="358.9" font-size="14" font-weight="700" letter-spacing="2.4" fill="#66738A">凡例</text>
 <line x1="1612" y1="394.9" x2="1658" y2="394.9" stroke="#0A2A57" stroke-width="3.6" stroke-linecap="round"/><text x="1672" y="400.4" font-size="16" fill="#0A2A57">ラオス国内</text>
