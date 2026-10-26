@@ -984,6 +984,22 @@
       "reverseBookingUrl": "https://laosbustickets.com/go/nongkhiaw-luangprabang"
     },
     {
+      "name": "Huay Xai to Luang Prabang",
+      "from": "Huay Xai",
+      "to": "Luang Prabang",
+      "country": "domestic",
+      "durationText": "2 days, one night in Pakbeng",
+      "modes": [
+        "ferry"
+      ],
+      "bookable": true,
+      "reverseBookable": false,
+      "editorialNote": "The two-day Mekong slow boat, with a night in Pakbeng. The public boat also sells its tickets at the counter on the Huay Xai pier, and leaves late in the morning.",
+      "verified": "2026-10-25",
+      "pageUrl": "https://laosbustickets.com/chiang-mai-luang-prabang-bus/",
+      "bookingUrl": "https://laosbustickets.com/go/huayxai-luangprabang"
+    },
+    {
       "name": "Vientiane to Phonsavan",
       "from": "Vientiane",
       "to": "Phonsavan",
