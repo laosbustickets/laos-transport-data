@@ -258,7 +258,7 @@
       ],
       "bookable": false,
       "direct": true,
-      "editorialNote": "Not sold online at the moment: no bookable seats on any of seven dates checked between 23 September and 4 November 2026, in either direction. The international bus between Savannakhet and Mukdahan still appears on the operator timetable, with departures from 08:15, so buy the ticket locally rather than online.",
+      "editorialNote": "Not sold online up to 4 November 2026, in either direction. The international bus between Savannakhet and Mukdahan still appears on the operator timetable, with departures from 08:15, so buy the ticket locally rather than online.",
       "verified": "2026-10-21",
       "pageUrl": "https://laosbustickets.com/laos-thailand-border-crossings/",
       "checkpointRegisterUrl": "https://immigration.gov.la/en/checkpoints/detail/friendship-bridge-2"
@@ -356,7 +356,7 @@
       ],
       "bookable": false,
       "direct": true,
-      "editorialNote": "Not sold online at the moment: no bookable seats on any of seven dates checked between 30 September and 4 November 2026, in either direction. A daily sleeper still appears on the published timetable, leaving Vientiane at 06:00 and taking about 14 hours; ask at Vientiane's Southern Bus Terminal (Dong Dok).",
+      "editorialNote": "Not sold online up to 4 November 2026, in either direction. A daily sleeper still appears on the published timetable, leaving Vientiane at 06:00 and taking about 14 hours; ask at Vientiane's Southern Bus Terminal (Dong Dok).",
       "verified": "2026-10-21",
       "pageUrl": "https://laosbustickets.com/laos-vietnam-border-crossings/",
       "checkpointRegisterUrl": "https://immigration.gov.la/en/checkpoints/detail/namphao-international-checkpoint"
@@ -665,7 +665,7 @@
       ],
       "bookable": false,
       "flightOnly": true,
-      "editorialNote": "No through ticket you can book: no bookable online inventory on this pair on three dates checked in September and October 2026. The flights themselves do run, all connecting through Vientiane, on Lao Airlines, Lao Skyway, Lanexang Airways or Air Cambodia. Overland, no scheduled bus across the Na Mèo crossing could be found in October 2026; travellers report crossing by motorbike, shared taxi or hitchhiking.",
+      "editorialNote": "No through ticket can be booked online for this pair. The flights themselves do run, all connecting through Vientiane, on Lao Airlines, Lao Skyway, Lanexang Airways or Air Cambodia. Overland, no scheduled bus across the Na Mèo crossing could be found in October 2026; travellers report crossing by motorbike, shared taxi or hitchhiking.",
       "verified": "2026-10-21",
       "sources": [
         {
