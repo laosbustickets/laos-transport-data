@@ -31,6 +31,8 @@ jobs:
         run: |
           curl -fsSL --retry 3 https://laosbustickets.com/data/routes.json -o routes.json
           curl -fsSL --retry 3 https://laosbustickets.com/data/checkpoints.json -o checkpoints.json
+          curl -fsSL --retry 3 https://laosbustickets.com/data/routes.csv -o routes.csv
+          curl -fsSL --retry 3 https://laosbustickets.com/data/checkpoints.csv -o checkpoints.csv
           curl -fsSL --retry 3 https://laosbustickets.com/data/laos-train-timetable.json -o laos-train-timetable.json
           mkdir -p maps
           for lang in en fr de es ja ko ru zh; do
@@ -41,7 +43,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add routes.json checkpoints.json laos-train-timetable.json maps
+          git add routes.json checkpoints.json routes.csv checkpoints.csv laos-train-timetable.json maps
           if git diff --cached --quiet; then
             echo "No dataset changes detected."
           else
@@ -73,6 +75,8 @@ jobs:
                   "README.md",
                   "routes.json",
                   "checkpoints.json",
+                  "routes.csv",
+                  "checkpoints.csv",
                   "laos-train-timetable.json",
                   "maps/*.svg"
               ],
