@@ -11,6 +11,11 @@ tags:
 - border-crossings
 - bus-routes
 - maps
+configs:
+- config_name: checkpoints
+  data_files: checkpoints.csv
+- config_name: routes
+  data_files: routes.csv
 ---
 
 # Laos Transport Data
@@ -25,6 +30,7 @@ by a GitHub Action. If the two ever differ, trust the website, and please cite i
 | `laos-train-timetable.json` | Every passenger train on the Laos–China Railway for the next 7 days: stations, arrival and departure times, running days, through trains to Kunming. Read every morning from the official LCR Ticket app of the Laos-China Railway Company. | Daily, 06:00 Laos time | [Laos train timetable](https://laosbustickets.com/train-tickets-laos/#timetable) |
 | `routes.json` | Bus, train and flight routes to, from and within Laos: border crossing used, duration, indicative fare, whether it can be booked online. | When routes change | [All routes](https://laosbustickets.com/routes/) |
 | `checkpoints.json` | Every checkpoint on the Lao Department of Immigration's register: hours, visa on arrival and eVisa status, coordinates, per-checkpoint verified date. | Weekly check | [Laos border checkpoints](https://laosbustickets.com/laos-border-checkpoints/) |
+| `checkpoints.csv`, `routes.csv` | The same two lists as flat tables, one row per checkpoint and per route, for spreadsheets and the table viewer. The JSON files hold the full details. | With the JSON files | [Sources](https://laosbustickets.com/sources/#open-data) |
 | `maps/laos-transport-map-<lang>.svg` | The Laos transport map in 8 languages (en, fr, de, es, ja, ko, ru, zh), portrait and `-landscape` (16 SVGs). | When routes or crossings change | [Laos transport map](https://laosbustickets.com/laos-transport-map/) |
 
 ## The timetable file
